@@ -1,0 +1,2305 @@
+/* Stylesheet for North Greenville University College of Science and Math Website Update January 2014 */
+/* //////////////////// Begin Main Page Styles //////////////////// */
+/* Page Heading Styles */
+/* line 35, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+html,
+body,
+.main-wrapper,
+.col {
+  height: 100%;
+}
+
+/* Add button color to mobile menu */
+/* line 40, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.mm-list a.mm-subopen {
+  background-color: #242424;
+}
+
+/* line 44, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+#hdrImg .navi {
+  display: none;
+}
+
+/* line 48, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+#article {
+  margin: -10px -17px;
+}
+
+/* line 52, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.wrapper {
+  width: 990px;
+  margin: 0 auto;
+}
+
+/* line 57, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+#contentSlot {
+  padding-top: 0;
+}
+
+/* line 65, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+#breadcrumbs,
+.bc_spacer,
+.bc_mid a,
+.bc_last,
+.bc_last a {
+  color: #979797;
+}
+
+/* line 70, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+bc_mid a:hover,
+bc_last a:hover {
+  text-decoration: underline;
+}
+
+/* Controls degree title bar */
+/* line 75, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+h1.pg_title {
+  color: #a40a00;
+  padding-top: 15px;
+  font-size: 2.1em;
+  margin-bottom: 0.6em;
+  padding-bottom: 1%;
+  margin-left: -2.2%;
+  padding-left: 3%;
+  width: 101.3%;
+}
+
+/* END Page Heading Styles */
+/* Department Menu Styles */
+/* line 90, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.csm-menu-lvl1-list {
+  width: 130%;
+}
+
+/* line 94, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+  width: 79%;
+}
+
+/* line 98, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.margincontent a.btn {
+  width: 80.1%;
+  padding: 10px;
+}
+
+/* line 104, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.margincontent a.btn:hover,
+.margincontent a.btn:focus {
+  color: #a40a00;
+  background-color: transparent;
+  border-left: 6px solid #a40a00;
+}
+
+/* Adds > bracket arrow to front of list items */
+/* line 112, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.csm-menu-lvl1-list a span:before {
+  content: "";
+  background: url("http://nspowers.org/ngucsm/right-bracket-arrow.svg") no-repeat scroll 0px 5px transparent;
+  height: 2.79em;
+  width: 1.2em;
+  float: left;
+  display: inline-block;
+  padding-top: .088em;
+}
+
+/* line 122, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.department-menu-btn {
+  background-color: #EEE;
+}
+
+/* line 126, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.department-menu-btn a {
+  color: #666;
+}
+
+/* line 130, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.menu-title {
+  background-color: #EEE;
+}
+
+/* line 134, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.menu-title a {
+  color: #666;
+}
+
+/* line 138, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.back-to-top {
+  background-color: #EEE;
+  display: inline-block;
+  margin-left: 17%;
+  text-decoration: underline;
+}
+
+/* line 147, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.menu-contact-box {
+  width: 88%;
+  border-top: 0.4em solid #a40a00;
+  margin-top: 2em;
+  padding: 0 0 5% 11%;
+  margin-bottom: 0.5em;
+  background-color: #f1efe8;
+}
+
+/* line 156, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+p.menu-contact-info strong {
+  margin-bottom: -0.6em;
+}
+
+/* line 160, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.menu-contact-info span {
+  margin-bottom: -0.7em;
+  font-size: .85em;
+  margin-top: -6%;
+}
+
+/* line 166, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.contact-content {
+  /*    font-size: 0.9em;*/
+}
+
+/* line 172, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.mail-link {
+  text-decoration: none;
+}
+
+/* END Department Menu Styles */
+/* Columns and Page Structure */
+/* line 182, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.content-container {
+  background-color: transparent;
+}
+
+/* line 186, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.hero-img {
+  width: 100%;
+}
+
+/* line 190, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.main-wrapper {
+  padding: 0 .75em;
+}
+
+/* line 194, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.col {
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: top;
+}
+
+/* line 200, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.column-container {
+  width: 100%;
+  margin-top: -0.8%;
+  padding-top: 1.6%;
+  margin-top: -1.25%;
+}
+
+/* line 207, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.center-column {
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 5% 3.01% 2%;
+  max-width: 500px;
+}
+
+/* Begin Center Column */
+/* line 218, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+h3.heading-text {
+  color: #a40a00;
+  text-decoration: none;
+  margin: 0 0 16px 0;
+  font-size: 1.62em;
+  letter-spacing: 0.03em;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+/* line 229, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+h3.program-header {
+  color: #333;
+  font-size: 1.6em;
+  margin-top: 0;
+}
+
+/* line 235, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+p.program-desc {
+  color: #292929;
+  margin-top: 0;
+  font-size: 1.08em;
+  margin-bottom: 1.5em;
+}
+
+/* line 242, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.track-img {
+  margin: 3px 15px 0 0;
+  float: left;
+  clear: left;
+  padding-bottom: 1em;
+  width: 27%;
+}
+
+/* line 250, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+h5.track-heading {
+  margin-top: 0;
+}
+
+/* line 254, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.track-pad {
+  padding-bottom: .2em;
+}
+
+/* line 258, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.learn-more {
+  text-decoration: none;
+}
+
+/* line 262, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.learn-more span {
+  font-size: .9em;
+  font-weight: normal;
+}
+
+/* line 267, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.learn-more span a {
+  font-size: 1.09em;
+  color: #a40a00;
+  font-weight: 700;
+}
+
+/* Adds >> double bracket arrow to track links */
+/* line 274, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.learn-more span a:after {
+  content: "";
+  background: url("http://nspowers.org/ngucsm/right-double-bracket-arrow.svg") no-repeat scroll 0px 0px transparent;
+  display: inline-block;
+  width: 14px;
+  height: 11px;
+}
+
+/* line 282, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.explore-tracks {
+  margin-bottom: 12%;
+}
+
+/* line 286, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.explore-tracks a {
+  color: #292929;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* line 292, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.explore-tracks a:hover {
+  color: #A40000;
+  text-decoration: underline;
+  border-bottom: none;
+}
+
+/* line 298, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+p.track-desc {
+  padding-left: 130px;
+  margin-top: -0.001em;
+  margin-bottom: -0.78em;
+  color: #292929;
+}
+
+/* line 305, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.learn-more span a {
+  color: #a40a00;
+  font-weight: 700;
+}
+
+/* End Center Column */
+/* Begin Right Column */
+/* line 314, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+#right-side-column {
+  display: inline-block;
+  max-width: 245px;
+  margin: 0 0 0 8%;
+  vertical-align: top;
+  box-sizing: border-box;
+  height: auto;
+  margin-left: 17.5%;
+  margin: 0;
+}
+
+/* line 325, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.right-column-content ul li {
+  list-style: none;
+  width: 95%;
+  background-color: #8A0000;
+  padding-bottom: 1.3em;
+  margin-bottom: 7.8em;
+}
+
+/* line 333, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.right-column-content ul li:first-child {
+  margin-top: 4.8em;
+}
+
+/* line 337, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.right-column-content ul li a:hover {
+  list-style: none;
+}
+
+/* line 341, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.why-boxes {
+  display: block;
+  height: auto;
+  background-color: #FFF;
+}
+
+/* line 347, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+a.side-why-desc {
+  font-size: 1.1em;
+  margin-left: 0.95em;
+  display: block;
+  width: 80%;
+  color: #FFF;
+}
+
+/* line 355, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.side-why-desc:hover {
+  text-decoration: underline;
+}
+
+/* line 359, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.side-why-arrow {
+  display: block;
+  margin-left: 10.59em;
+  margin-top: -2.15em;
+  height: 1.375em;
+}
+
+/* line 366, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.right-column-content ul li:hover > .side-why-desc {
+  text-decoration: underline;
+}
+
+/* line 370, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.right-column-related-content ul {
+  margin-bottom: 20%;
+}
+
+/* line 374, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.right-column-related-content ul li {
+  list-style: none;
+  padding-bottom: 1.3em;
+  margin-bottom: 7.8em;
+}
+
+/* line 380, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.related-content-container {
+  list-style: none;
+  width: 100%;
+  padding: 7%;
+  margin-bottom: 7.8em;
+  background-color: #F6F6F6;
+  border-top: 3px solid #A40000;
+  margin-right: 1.5em;
+  float: right;
+}
+
+/* line 391, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.side-header {
+  padding-bottom: 3%;
+}
+
+/* line 395, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.side-content-container p {
+  color: #292929;
+}
+
+/* line 399, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.side-content-container p span {
+  font-weight: 300;
+  display: block;
+  margin-top: 2%;
+}
+
+/* line 405, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.download-track-button {
+  text-align: center;
+  padding: 4% 0 4% 0;
+  background-color: #A40000;
+  border-radius: 3px;
+}
+
+/* line 412, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.download-track-button:hover {
+  background-color: #8A0000;
+  text-decoration: underline;
+  color: #FFF;
+}
+
+/* line 418, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.download-track-button a {
+  color: #FFF;
+}
+
+/* line 422, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.download-track-button p:hover {
+  text-decoration: underline;
+  background-color: #7A181B;
+}
+
+/* END Right Column */
+/* line 429, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.other-tracks {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+/*needs new class to reset CMS default*/
+/* line 435, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.other-tracks-a {
+  color: #bf0001;
+  text-decoration: underline;
+}
+
+/* line 440, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.other-tracks-a:hover {
+  text-decoration: underline;
+  border: none;
+}
+
+/* ////////////////////////// main-column-full-width ////////////////////////// */
+/* line 447, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.main-column-full-width {
+  width: 100%;
+}
+
+/* line 451, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.center-column-full-width {
+  max-width: 99%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 2.6% 3.01% 2% 4.2%;
+}
+
+/* ////////////////////////// END main-column-full-width ////////////////////////// */
+/* ////////////////////////// page specific rules ////////////////////////// */
+/* Contact Us Page */
+/* line 466, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-info {
+  background-color: #F6F6F6;
+  padding: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+/* line 472, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-photo-column {
+  width: 35%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+/* line 480, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.profile-photo {
+  max-width: 70%;
+}
+
+/* line 484, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.info-block {
+  width: 60%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding-left: 1%;
+  margin-top: -3%;
+}
+
+/* line 494, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-title {
+  font-size: 1.6em;
+  margin-top: -1%;
+}
+
+/* Faculty Directory */
+/* line 501, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-info-block {
+  background-color: #F6F6F6;
+  margin-bottom: 6%;
+}
+
+/* line 506, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-info-box {
+  width: 60%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-left: -3.6%;
+}
+
+/* line 515, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-name {
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+/* line 522, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-photo {
+  max-width: 58%;
+  margin-bottom: -2%;
+}
+
+/* line 527, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-info-text {
+  font-size: 1.08em;
+  color: #292929;
+}
+
+/* Faculty Bio Page */
+/* line 534, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.back-to-faculty {
+  text-align: left;
+  font-size: 0.9em;
+  padding: 0 1% 1% 0;
+}
+
+/* line 540, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.back-to-faculty:hover {
+  text-decoration: underline;
+}
+
+/* line 544, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.back-to-faculty-hoz-rule {
+  border-bottom: .13em solid #EEE;
+  margin-bottom: 2%;
+}
+
+/*h3.faculty-bio-name {*/
+/* line 550, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-bio-name {
+  color: #292929;
+  margin: 0px 0px 10px;
+  font-size: 1.62em;
+  font-weight: 700;
+}
+
+/* line 557, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-bio-block {
+  background-color: #F6F6F6;
+  margin-bottom: 2%;
+}
+
+/* line 562, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-bio-box {
+  width: 60%;
+  display: inline-block;
+  height: auto;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+/* line 571, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-bio-photo {
+  max-width: 83%;
+  display: block;
+  overflow: auto;
+}
+
+/*p.faculty-info-desc {*/
+/* line 578, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-info-desc {
+  color: #292929;
+}
+
+/* line 582, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.vitae-link-style {
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 8%;
+  padding-top: 2%;
+}
+
+/* line 589, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.vitae-link-style a {
+  color: #bf0001;
+  text-decoration: underline;
+}
+
+/* line 594, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.vitae-link-style a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Us */
+/* line 600, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+.faculty-info-position {
+  margin-left: -3%;
+}
+
+                                                                  /* Note on Media Queries:
+Media Queries were developed in conjunction with existing page breakpoints. Several new items built on top of the existing CMS require their own queries for responsivity.
+
+
+/* ////////////////////////// max-width: 680px ////////////////////*/
+/* for h1 title text only */
+@media only screen and (max-width: 680px) {
+  /* controls placement of main degree title */
+  /* line 614, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h1.pg_title {
+    padding-top: 2%;
+    font-size: 2em;
+    margin-bottom: 6.4%;
+    margin-left: -3.5%;
+  }
+}
+/* ////////////////////////// END max-width: 680px /////////////////*/
+                   /* ////////////////////////// max-width: 450px
+////////////////////*/
+@media only screen and (max-width: 450px) {
+  /* Page Heading Styles */
+  /* line 633, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h1.pg_title {
+    width: 101%;
+  }
+
+  /* END Page Heading Styles */
+  /* Department Menu Styles */
+  /* line 641, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-left: -14.6%;
+    background-color: #F7F7F7;
+    width: 120%;
+    padding-bottom: 3%;
+  }
+
+  /* line 648, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-ul {
+    margin-left: .3%;
+  }
+
+  /* line 652, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: #EEE;
+    width: 94%;
+    padding: 15px 0 15px 0;
+  }
+
+  /* line 658, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    width: 100%;
+    padding: 0.4em 0;
+  }
+
+  /* line 663, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: none;
+    font-weight: 700;
+    background-color: #8A0000;
+    color: #FFF;
+    width: 95.6%;
+  }
+
+  /* line 671, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .department-menu-btn {
+    position: absolute;
+    margin-left: 62%;
+    padding: 1.3%;
+    top: .9em;
+  }
+
+  /* line 678, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    margin-bottom: -9%;
+    font-size: 1.3em;
+    padding: 1% 0 1% 4.4%;
+    margin-left: -2.8%;
+    width: 101.5%;
+    border-bottom: 2px solid #8A0000;
+    overflow: hidden;
+  }
+
+  /* END Department Menu Styles */
+  /* Columns and Page Structure */
+  /* line 692, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #contentWrapper {
+    overflow: hidden;
+  }
+
+  /* line 696, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .content-container {
+    width: 99.8%;
+  }
+
+  /* END Columns and Page Structure */
+  /* Begin Center Column */
+  /* line 704, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .track-img {
+    margin-top: 1.7%;
+    padding-bottom: 0;
+  }
+
+  /* line 709, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  p.track-desc {
+    padding-left: 0;
+    margin-bottom: 0.22em;
+  }
+
+  /* line 714, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more {
+    width: 105%;
+  }
+
+  /* line 718, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more span {
+    text-decoration: none;
+    font-style: normal;
+  }
+
+  /* line 723, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more span a {
+    display: block;
+    color: #a40a00;
+    margin-top: 2%;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+
+  /* END Center Column */
+  /* Begin Right Column */
+  /* line 737, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #right-side-column {
+    margin-left: 1.2em;
+  }
+
+  /* centers right side why button content */
+  /* line 742, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content {
+    width: 100%;
+  }
+
+  /* line 746, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li {
+    width: 100%;
+  }
+
+  /* line 750, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-desc {
+    width: 80%;
+    margin-left: 0.6em;
+  }
+
+  /* line 755, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-arrow {
+    margin-left: 10.9em;
+  }
+
+  /* line 759, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content {
+    margin-left: 1.5em;
+    margin-right: -4em;
+  }
+
+  /* END Right Column */
+  /* line 766, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .img-center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  /* line 772, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-bio-box {
+    display: block;
+    margin-left: 5%;
+    padding: 2%;
+    max-width: 85%;
+    width: auto;
+  }
+}
+/* ////////////////////////// END max-width: 450px /////////////////*/
+                   /* ////////////////////////// min-width: 451px
+////////////////////*/
+@media only screen and (min-width: 451px) and (max-width: 757px) {
+  /* Department Menu Styles */
+  /* line 793, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    background-color: #F7F7F7;
+    margin-left: -6%;
+    width: 111%;
+    overflow: hidden;
+  }
+
+  /* line 800, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-ul {
+    padding-left: .75em;
+  }
+
+  /* line 804, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: #EEE;
+    width: 100%;
+    padding: 13px 0 13px 0;
+    min-width: 80%;
+  }
+
+  /* line 811, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    max-width: 140%;
+    padding-left: .85em;
+  }
+
+  /* line 816, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .li.csm-menu-lvl1-list.selected {
+    min-width: 93%;
+  }
+
+  /* line 820, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: none;
+    font-weight: bold;
+    background-color: #8A0000;
+    color: #FFF;
+    min-width: 80.7%;
+  }
+
+  /* Adds > bracket arrow to front of list items */
+  /* line 829, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list a span:before {
+    content: "";
+    background: url("http://nspowers.org/ngucsm/right-bracket-arrow.svg") no-repeat scroll 0px 4px transparent;
+    height: 1.79em;
+    width: .4em;
+    float: left;
+    display: inline-block;
+    padding-top: .088em;
+  }
+
+  /* line 839, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .department-menu-btn {
+    position: absolute;
+    margin-top: -7em;
+    margin-left: 70%;
+    padding: 1.3%;
+  }
+
+  /* line 846, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    margin-top: -4%;
+    margin-bottom: -2%;
+    font-size: 1.3em;
+    padding: 1% 0 1% 4.4%;
+    margin-left: -2.8%;
+    width: 102%;
+    border-bottom: 2px solid #8A0000;
+  }
+
+  /* line 856, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .back-to-top {
+    margin-left: 50%;
+  }
+
+  /* Columns and Page Structure */
+  /* line 862, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hero-img {
+    margin-top: -2.3%;
+  }
+
+  /* END Columns and Page Structure */
+  /* Begin Right Column */
+  /* line 871, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content {
+    width: auto;
+    margin: 0;
+    padding-left: 32%;
+    margin-left: 36%;
+  }
+
+  /* line 878, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .why-boxes {
+    width: 104%;
+  }
+
+  /* line 882, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-desc {
+    width: 77%;
+  }
+
+  /* line 886, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-arrow {
+    margin-left: 12em;
+  }
+
+  /* line 890, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content {
+    margin-left: 25%;
+    margin-right: -70%;
+  }
+
+  /* line 895, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content ul li {
+    margin-bottom: 30%;
+  }
+
+  /* line 899, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .download-track-button a {
+    padding: 10% 30% 10% 27%;
+  }
+
+  /* line 903, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-header {
+    font-weight: 700;
+  }
+
+  /* END Right Column */
+  /* line 909, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-bio-box {
+    max-width: 100%;
+    padding: 5%;
+  }
+}
+/* ////////////////////////// END max-width: 767px /////////////////*/
+/* ////////////////////////// max-width: 975px    ////////////////////*/
+@media only screen and (min-width: 451px) and (max-width: 975px) {
+  /* Department Menu Styles */
+  /* line 929, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    background-color: transparent;
+  }
+
+  /* line 933, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: #EEE;
+    width: 77.7%;
+    padding: 14px;
+  }
+
+  /* line 939, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    width: 111%;
+  }
+
+  /* line 943, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list a span:before {
+    padding-right: 5%;
+  }
+
+  /* line 947, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    width: 79%;
+  }
+
+  /* Begin Center Content */
+  /* line 953, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .center-column {
+    width: 100%;
+  }
+
+  /* END Center Content */
+  /* Begin Right Column */
+  /* line 961, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-side-column {
+    margin: 0;
+  }
+
+  /* line 965, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content {
+    width: 117%;
+    margin-left: 18%;
+    margin-top: 20%;
+  }
+
+  /* END Righ Column */
+}
+/* ///////////////////// END max-width: 975px ///////////// */
+/* ipad portrait ////////////////////////// min-width: 768px ////////////////////*/
+@media only screen and (min-width: 768px) and (max-width: 974px) {
+  /* Page Heading Styles */
+  /* line 984, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #hdrImg {
+    width: 81.2%;
+  }
+
+  /* line 988, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #breadcrumbs {
+    margin-left: 1%;
+  }
+
+  /* END Page Heading Styles */
+  /* Department Menu Styles */
+  /* line 996, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-left: -3.6%;
+    width: 105.7%;
+    background-color: #F7f7f7;
+    padding-bottom: 2%;
+    border-bottom: 5px solid #8A0000;
+  }
+
+  /* line 1004, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-ul {
+    margin-left: .2%;
+  }
+
+  /* line 1008, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: #EEE;
+    width: 94%;
+  }
+
+  /* line 1013, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    width: 100%;
+  }
+
+  /* controls space between ">" and track title in menu */
+  /* line 1018, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list a span:before {
+    padding-right: 1%;
+  }
+
+  /* line 1022, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected {
+    width: 100.5%;
+  }
+
+  /* line 1026, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: none;
+    font-weight: bold;
+    background-color: #8A0000;
+    color: #FFF;
+  }
+
+  /* line 1033, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .department-menu-btn {
+    position: absolute;
+    margin-top: -6em;
+    margin-left: 78%;
+    padding: 1.5%;
+  }
+
+  /* line 1040, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    font-size: 1.3em;
+    padding: 1% 0 1% 4.4%;
+    margin-left: -2.8%;
+    width: 99.8%;
+    border-bottom: 2px solid #8A0000;
+    color: #666;
+  }
+
+  /* line 1051, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .back-to-top {
+    margin-left: 62%;
+  }
+
+  /* END Department Menu Styles */
+  /* Columns and Page Structure */
+  /* line 1059, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #contentWrapper {
+    border: none;
+  }
+
+  /* line 1063, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .content-container {
+    width: 99.8%;
+  }
+
+  /* END Columns and Page Structure */
+  /* Begin Right Column */
+  /* line 1071, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #right-side-column {
+    margin: 0;
+    padding-right: 2.5%;
+  }
+
+  /* line 1076, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content {
+    width: 114%;
+    margin-left: -6%;
+  }
+
+  /* line 1081, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li {
+    width: 88%;
+    margin-left: 6.5%;
+  }
+
+  /* line 1086, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li:first-child {
+    margin-top: 5.2em;
+  }
+
+  /* END Right Column */
+  /* line 1092, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-info-box {
+    max-width: 50%;
+  }
+
+  /* line 1096, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-bio-photo {
+    max-width: 90%;
+  }
+
+  /* line 1100, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-bio-box {
+    max-width: 40%;
+  }
+
+  /* line 1104, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .related-content-container {
+    margin-right: -15%;
+    margin-top: 13%;
+  }
+}
+/* ////////////////////////// END max-width: 974px /////////////////*/
+@media only screen and (min-width: 769px) and (max-width: 975px) {
+  /* Department Menu Styles */
+  /* line 1119, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-left: -16.6%;
+    width: 527%;
+    margin-top: 27%;
+    overflow: hidden;
+    background-color: #F7f7f7;
+    padding-bottom: 13%;
+    border-bottom: 5px solid #8A0000;
+  }
+
+  /* line 1129, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-ul {
+    margin-left: .2%;
+  }
+
+  /* line 1133, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: #EEE;
+    width: 94%;
+  }
+
+  /* line 1138, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    width: 100%;
+  }
+
+  /* controls space between ">" and track title in menu */
+  /* line 1143, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list a span:before {
+    padding-right: 1%;
+  }
+
+  /* line 1147, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected {
+    width: 100.5%;
+  }
+
+  /* line 1151, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: none;
+    font-weight: bold;
+    background-color: #8A0000;
+    color: #FFF;
+  }
+
+  /* line 1158, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .department-menu-btn {
+    position: absolute;
+    margin-top: -6em;
+    margin-left: 78%;
+    padding: 1.5%;
+  }
+
+  /* line 1165, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    margin-top: 4%;
+    margin-bottom: -4%;
+    font-size: 1.3em;
+    padding: 1% 0 1% 4.4%;
+    margin-left: -2.8%;
+    width: 99.8%;
+    border-bottom: 2px solid #8A0000;
+    color: #666;
+  }
+
+  /* line 1176, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .back-to-top {
+    margin-left: 62%;
+  }
+
+  /* END Department Menu Styles */
+}
+/* ////////////////////////// END min-width: 769px and max-width: 975px /////////////////*/
+/* ////////////////////////// min-width: 976px ////////////////////*/
+/* ipad landscape this is where the csm menu loads left and there is the most movement and realigning */
+@media only screen and (min-width: 976px) and (max-width: 1034px) {
+  /* Page Heading Styles */
+  /* line 1196, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #innerWrapper {
+    padding-right: .4%;
+  }
+
+  /* line 1200, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #hdrImg {
+    width: 78.7%;
+    width: 79.8%;
+  }
+
+  /* line 1205, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #breadcrumbs {
+    margin-left: -28%;
+  }
+
+  /* line 1209, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h1.pg_title {
+    color: #a40a00;
+    margin-left: -30.7%;
+    width: 129%;
+    border-bottom: 0.09em solid #a40a00;
+    padding-bottom: 0.1%;
+  }
+
+  /* END Page Heading Styles */
+  /* Department Menu Styles */
+  /* line 1221, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-top: 45.1%;
+  }
+
+  /* line 1225, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-ul {
+    padding-left: .06em;
+    width: 85%;
+  }
+
+  /* line 1230, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: transparent;
+  }
+
+  /* line 1234, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    margin-left: -2.8em;
+    width: 150%;
+    padding: .3em;
+  }
+
+  /* line 1240, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: 7px solid #A40A00;
+    font-weight: 700;
+    background-color: transparent;
+    color: #A40A00;
+  }
+
+  /* line 1247, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .department-menu-btn {
+    display: none;
+  }
+
+  /* line 1251, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    display: none;
+  }
+
+  /* line 1255, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .back-to-top {
+    display: none;
+  }
+
+  /* END Department Menu Styles */
+  /* Columns and Page Structure */
+  /* line 1263, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .content-container {
+    margin-top: -2.23em;
+  }
+
+  /* line 1267, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .main-wrapper {
+    padding: 0;
+  }
+
+  /* line 1271, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .column-container {
+    background-color: #f6f6f6;
+    border-left: 15.5em solid #FFF;
+    margin-left: -15.4em;
+    margin-top: 1.65em;
+  }
+
+  /* line 1278, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hero-img {
+    width: 99%;
+  }
+
+  /* Begin Center Column */
+  /* line 1284, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .center-column {
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  /* line 1292, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h3.heading-text {
+    margin-left: -0.2%;
+  }
+
+  /* END Center Column */
+  /* Begin Right Column */
+  /* line 1300, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-column {
+    width: 31.163%;
+    margin-left: 4.7%;
+    height: 79em;
+    background-color: #f6f6f6;
+    border-left: 1px solid #EAEAEA;
+  }
+
+  /* line 1308, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #right-side-column {
+    margin: 0;
+    margin-top: -0.4%;
+    margin-left: -2.27em;
+  }
+
+  /* line 1314, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content {
+    margin-right: -13%;
+    margin-left: 9%;
+  }
+
+  /* line 1319, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-desc {
+    width: 80%;
+  }
+
+  /* END Right Column */
+  /* line 1325, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-info-box {
+    max-width: 50%;
+  }
+
+  /* line 1329, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .faculty-bio-box {
+    max-width: 60%;
+  }
+}
+/* ////////////////////////// END min-width: 976px and max-width: 1034px /////////////////*/
+/* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 976px) and (max-width: 1034px) {
+  /* line 1343, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-top: -1.501em;
+  }
+}
+/* ////////////////////////// END min-width: 976px and max-width: 1034px for IE 11 Menu Correction /////////////////*/
+/* side menu -> bottom */
+@media only screen and (max-width: 1034px) {
+  /* line 1357, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-container,
+  .apply-button {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1035px) {
+  /* Page Heading Styles */
+  /* line 1369, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #innerWrapper {
+    width: 90%;
+  }
+
+  /* line 1373, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #contentWrapper {
+    border-top: 0.025em solid #E3E3E3;
+  }
+
+  /* END Page Heading Styles */
+  /* Department Menu Styles */
+  /* line 1381, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-top: 5.8em;
+    margin-left: -3.18%;
+  }
+
+  /* line 1386, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: transparent;
+    width: 100%;
+  }
+
+  /* line 1391, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    margin-left: -3.17em;
+  }
+
+  /* line 1395, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: 7px solid #A40A00;
+    font-weight: 700;
+    background-color: transparent;
+    color: #A40A00;
+    max-width: 13.04em;
+  }
+
+  /* line 1405, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .department-menu-btn,
+  .menu-title,
+  .back-to-top {
+    display: none;
+  }
+
+  /* END Department Menu Styles */
+  /* Columns and Page Structure */
+  /* line 1413, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #column-container {
+    margin-top: -1.45%;
+  }
+
+  /* Begin Right Column */
+  /* line 1419, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content ul li {
+    margin-top: -3.1em;
+  }
+
+  /* line 1424, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .why-boxes {
+    width: 100%;
+  }
+
+  /* line 1428, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-desc {
+    width: 93%;
+  }
+
+  /* END Right Column */
+  /* line 1435, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #header_wrapper {
+    border-bottom: 3em solid #FFF;
+  }
+
+  /* line 1441, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .main-column {
+    width: 68%;
+    padding-right: 3.7%;
+  }
+
+  /* line 1453, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-column {
+    background-color: transparent;
+    border-left: 1px solid #EAEAEA;
+    margin-bottom: 2.5%;
+    width: 27%;
+    margin-left: 0;
+    padding-left: 0.9%;
+  }
+
+  /* line 1467, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .main-wrapper {
+    padding: 0;
+    background-color: #FFF;
+    box-shadow: none;
+  }
+
+  /* line 1473, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #hdrImg {
+    width: auto;
+  }
+
+  /* line 1477, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    display: none;
+  }
+
+  /* line 1481, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .back-to-top {
+    display: none;
+  }
+
+  /* line 1485, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-left: 1.499%;
+    margin-top: -5.12em;
+    margin-right: -1.2em;
+    padding-left: 0.64em;
+  }
+
+  /* line 1492, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: 7px solid #a40a00;
+    font-weight: bold;
+    background-color: transparent;
+    color: #a40a00;
+  }
+
+  /* line 1499, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: transparent;
+    max-width: 100%;
+    width: 90%;
+    height: 1.22em;
+  }
+
+  /* line 1507, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn:hover,
+  .margincontent a.btn:focus {
+    color: #a40a00;
+    background-color: transparent;
+    border-left: 6px solid #a40a00;
+  }
+
+  /* line 1513, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    margin-left: -3.17em;
+  }
+
+  /* line 1517, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #contentSlot {
+    padding-top: 4.45em;
+  }
+
+  /* line 1521, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .main-wrapper {
+    background-color: transparent;
+  }
+
+  /* these control realignments for column text */
+  /* line 1526, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #breadcrumbs {
+    margin-left: -15.15em;
+    margin-bottom: 0.4em;
+    margin-top: -9.6em;
+  }
+
+  /* line 1532, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hero-img {
+    width: 100%;
+    margin-bottom: 3.5em;
+  }
+
+  /* line 1539, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h1.pg_title {
+    font-size: 2.2em;
+    padding-left: 2.9%;
+    padding-bottom: 0.1%;
+    margin-left: -0.8em;
+    margin-bottom: 4.4%;
+    border-bottom: none;
+    margin-left: -0.81em;
+    width: auto;
+    letter-spacing: 0.007em;
+  }
+
+  /* line 1555, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .column-container {
+    margin-right: 1.2em;
+    padding: 0.5% 0 0;
+    margin-top: -15px;
+    margin-left: -14.9em;
+    border-left: 16.1em solid transparent;
+    width: 95.8%;
+  }
+
+  /* line 1566, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h4.intro-tagline {
+    text-transform: lowercase;
+    font-size: 1.2em;
+    margin-top: -2.1em;
+    margin-bottom: .85em;
+  }
+
+  /* line 1573, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .center-column {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    max-width: none;
+  }
+
+  /* line 1580, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .center-column-full-width {
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  /* line 1586, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  p.program-desc {
+    line-height: 1.55;
+    font-size: 1.1em;
+  }
+
+  /* line 1591, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #right-side-column {
+    margin: 0;
+    float: right;
+  }
+
+  /* line 1596, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .related-content-container {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  /* line 1601, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-sticky-content {
+    margin: auto;
+    height: 21em;
+    border-bottom: 5em solid #FFF;
+    display: none;
+  }
+
+  /* line 1608, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul {
+    margin-top: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    padding-left: 1.8em;
+    width: 90%;
+  }
+
+  /* line 1617, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li:first-child {
+    margin-top: -13%;
+  }
+
+  /* line 1621, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply-button {
+    background-color: #a40a00;
+    float: right;
+    height: 3.6em;
+    width: 90%;
+    margin-top: -6%;
+  }
+
+  /* line 1629, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply p {
+    margin-top: 5.9%;
+  }
+
+  /* line 1633, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply span a {
+    color: #FFF;
+    margin-left: 1em;
+    font-size: 1.28em;
+    font-weight: 400;
+  }
+
+  /* line 1640, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply-button:hover {
+    text-decoration: underline;
+    background-color: #8a0001;
+  }
+
+  /* line 1645, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks:first-child {
+    margin-top: 4%;
+  }
+
+  /* line 1649, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks {
+    margin-bottom: 10%;
+    max-width: 96%;
+  }
+
+  /* line 1656, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks a {
+    font-size: 1.2em;
+  }
+
+  /* End Center Column */
+  /* Begin Right Column */
+  /* line 1664, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li {
+    width: 100%;
+  }
+
+  /* line 1668, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .why-boxes {
+    width: 100%;
+  }
+
+  /* line 1672, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .track-img {
+    margin: 3px 20px 0 0;
+    float: left;
+    clear: left;
+    padding-bottom: 1em;
+  }
+
+  /* line 1679, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .track-pad {
+    padding-bottom: .2em;
+  }
+
+  /* line 1683, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more {
+    text-decoration: none;
+  }
+
+  /* line 1687, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more span {
+    font-size: .9em;
+    font-weight: normal;
+  }
+
+  /* line 1692, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks a {
+    color: #292929;
+    text-decoration: none;
+  }
+
+  /* line 1697, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks a:hover {
+    color: #a40a00;
+    text-decoration: underline;
+    border-bottom: none;
+  }
+
+  /* line 1703, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  p.track-desc {
+    padding-left: 130px;
+    margin-top: -0.001em;
+    margin-bottom: -0.78em;
+  }
+
+  /* End Center Column */
+  /* Begin Right Column */
+  /* line 1713, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-desc {
+    width: 85%;
+  }
+
+  /* line 1717, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-contnet {
+    margin-left: 4%;
+  }
+
+  /* line 1721, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content ul li {
+    width: 114%;
+    margin-right: -1em;
+  }
+
+  /* line 1727, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .related-content-container {
+    margin-top: 10%;
+  }
+
+  /* line 1731, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-container {
+    margin-top: 0;
+  }
+
+  /* line 1735, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-properties {
+    height: 15em;
+    width: 33.333%;
+  }
+
+  /* line 1740, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-hover-link div {
+    height: 138px;
+    overflow: hidden;
+    position: relative;
+    width: 86%;
+  }
+
+  /* line 1747, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-color1 {
+    background: steelblue;
+  }
+
+  /* line 1751, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-color2 {
+    background: olive;
+  }
+
+  /* line 1755, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-color3 {
+    background: purple;
+  }
+
+  /* line 1759, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-color4 {
+    background: purple;
+  }
+
+  /* line 1763, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-color5 {
+    background: olive;
+  }
+
+  /* line 1767, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-color6 {
+    background: steelblue;
+  }
+
+  /* line 1771, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-hover-link h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.015em;
+    bottom: -107px;
+    left: .43em;
+    color: #FFF;
+    position: absolute;
+    left: 11px;
+    z-index: 1;
+    text-shadow: 0px 0px 10px #000;
+    padding: 0px 0.5em 0.3333em !important;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  /* line 1788, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-hover-link a:hover h2,
+  .explore-grid-hover-link a:focus h2 {
+    text-shadow: none;
+  }
+
+  /* line 1793, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-hover-link a:hover img,
+  .explore-grid-hover-link a:focus img {
+    opacity: 0;
+  }
+
+  /* line 1797, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-hover-link div a:hover > div.hover-link-text a:hover {
+    text-decoration: underline;
+  }
+
+  /* line 1801, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-hover-link img {
+    position: absolute;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out 0s;
+    transition: opacity 0.3s ease-in-out 0s;
+    max-width: none;
+  }
+
+  /* line 1809, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-link-text {
+    padding-top: 4%;
+  }
+
+  /* line 1813, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-link-text a {
+    font-size: 1em;
+    color: #292929;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+
+  /* line 1820, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hover-link-text a:hover {
+    text-decoration: underline;
+  }
+
+  /* line 1824, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-left {
+    margin-left: 0;
+  }
+
+  /* line 1828, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-middle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 1833, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-grid-right {
+    margin-left: 2.93em;
+  }
+
+  /* line 1837, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .other-tracks {
+    padding-top: 2.3em;
+    font-size: 1.62em;
+    letter-spacing: 0.03em;
+    font-family: "Ubuntu Condensed",sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+
+  /* line 1847, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #callout_wrapper {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 24.4em;
+    margin-top: -21.6em;
+  }
+
+  /* END Columns and Page Structure */
+}
+/* ////////////////////////// END min-width: 1035px /////////////////*/
+@media only screen and (min-width: 1044px) {
+  /* line 1867, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #header_wrapper {
+    border-bottom: 3em solid #FFF;
+  }
+
+  /* line 1871, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #contentWrapper {
+    border-top: 0.025em solid #E3E3E3;
+  }
+
+  /* line 1875, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .main-column {
+    width: 68%;
+    padding-right: 3.7%;
+  }
+
+  /* line 1882, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-column {
+    width: 32.84%;
+    background-color: transparent;
+    width: 27%;
+    margin-left: 0;
+    padding-left: 0.9%;
+    margin-top: 2.7em;
+  }
+
+  /* line 1895, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .main-wrapper {
+    padding: 0;
+    box-shadow: none;
+  }
+
+  /* line 1900, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #hdrImg {
+    width: auto;
+  }
+
+  /* line 1904, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .menu-title {
+    display: none;
+  }
+
+  /* line 1908, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .back-to-top {
+    display: none;
+  }
+
+  /* line 1912, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu {
+    margin-left: 1.499%;
+    margin-top: -5.12em;
+    margin-right: -1.2em;
+    padding-left: 0.64em;
+  }
+
+  /* line 1919, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  li.csm-menu-lvl1-list.selected > a.csm-links.btn {
+    border-left: 7px solid #a40a00;
+    font-weight: bold;
+    background-color: transparent;
+    color: #a40a00;
+  }
+
+  /* line 1926, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn {
+    background-color: transparent;
+    max-width: 100%;
+    width: 90%;
+    height: 1.22em;
+  }
+
+  /* line 1934, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .margincontent a.btn:hover,
+  .margincontent a.btn:focus {
+    color: #a40a00;
+    background-color: transparent;
+    border-left: 6px solid #a40a00;
+  }
+
+  /* line 1940, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .csm-menu-lvl1-list {
+    margin-left: -3.17em;
+  }
+
+  /* line 1944, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #contentSlot {
+    padding-top: 4.45em;
+  }
+
+  /* line 1948, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .no-intro {
+    margin-top: -2em;
+  }
+
+  /* these control realignments for column text */
+  /* line 1953, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #breadcrumbs {
+    margin-left: -15.15em;
+    margin-bottom: 0.4em;
+    margin-top: -9.6em;
+  }
+
+  /* line 1959, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .hero-img {
+    width: 100%;
+  }
+
+  /* line 1965, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h1.pg_title {
+    font-size: 2.2em;
+    padding-left: 2.9%;
+    padding-bottom: 0.1%;
+    margin-bottom: 4.4%;
+    border-bottom: none;
+    margin-left: -0.81em;
+    width: auto;
+  }
+
+  /* line 1979, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .column-container {
+    margin-right: 1.2em;
+    padding: 0.5% 0 0;
+    margin-top: -15px;
+    border-left: 16.1em solid transparent;
+    width: 95.8%;
+  }
+
+  /* line 1989, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  h4.intro-tagline {
+    text-transform: lowercase;
+    font-size: 1.2em;
+    margin-top: -2.5em;
+    margin-bottom: .85em;
+  }
+
+  /* line 1997, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .center-column {
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  /* line 2003, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .center-column-full-width {
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+  }
+
+  /* line 2013, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #right-side-column {
+    margin: 0;
+    float: right;
+  }
+
+  /* line 2018, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .related-content-container {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  /* line 2023, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-sticky-content {
+    margin: auto;
+    height: 21em;
+    border-bottom: 5em solid #FFF;
+    display: none;
+  }
+
+  /* line 2030, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul {
+    margin-top: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0;
+    padding-left: 1.8em;
+    width: 90%;
+  }
+
+  /* line 2042, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li:first-child {
+    margin-top: -13%;
+  }
+
+  /* line 2046, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply-button {
+    background-color: #a40a00;
+    float: right;
+    height: 3.6em;
+    width: 90%;
+    margin-top: -6%;
+  }
+
+  /* line 2054, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply p {
+    margin-top: 5.9%;
+  }
+
+  /* line 2058, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply span a {
+    color: #FFF;
+    margin-left: 1em;
+    font-size: 1.28em;
+    font-weight: 400;
+  }
+
+  /* line 2065, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .apply-button:hover {
+    text-decoration: underline;
+    background-color: #8a0001;
+  }
+
+  /* line 2070, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks:first-child {
+    margin-top: 4%;
+  }
+
+  /* line 2074, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks {
+    margin-bottom: 10%;
+    max-width: 88%;
+  }
+
+  /* line 2080, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks a {
+    font-size: 1.2em;
+  }
+
+  /* End Center Column */
+  /* Begin Right Column */
+  /* line 2088, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-content ul li {
+    width: 100%;
+  }
+
+  /* line 2092, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .why-boxes {
+    width: 100%;
+  }
+
+  /* line 2096, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .track-img {
+    margin: 3px 20px 0 0;
+    float: left;
+    clear: left;
+    padding-bottom: 1em;
+  }
+
+  /* line 2103, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .track-pad {
+    padding-bottom: .2em;
+  }
+
+  /* line 2107, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more {
+    text-decoration: none;
+  }
+
+  /* line 2111, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .learn-more span {
+    font-size: .9em;
+    font-weight: normal;
+  }
+
+  /* line 2116, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks a {
+    color: #292929;
+    text-decoration: none;
+  }
+
+  /* line 2121, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .explore-tracks a:hover {
+    color: #a40a00;
+    text-decoration: underline;
+    border-bottom: none;
+  }
+
+  /* line 2127, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  p.track-desc {
+    padding-left: 130px;
+    margin-top: -0.001em;
+    margin-bottom: -0.78em;
+  }
+
+  /* End Center Column */
+  /* Begin Right Column */
+  /* line 2137, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .side-why-desc {
+    width: 85%;
+  }
+
+  /* line 2141, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content {
+    margin-left: 4%;
+  }
+  /* line 2144, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content ul {
+    margin-bottom: 26%;
+  }
+  /* line 2147, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .right-column-related-content ul li {
+    width: 114%;
+    margin-right: -1em;
+  }
+
+  /* line 2155, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .related-content-container {
+    margin-top: 10%;
+  }
+
+  /* line 2159, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .tribeta-grid-image {
+    margin-top: -1.1em;
+    margin-left: -24.5em;
+  }
+
+  /* line 2164, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .biology-club-grid-image {
+    margin-left: -18em;
+    margin-top: -5.65em;
+  }
+
+  /* line 2170, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .about-program-grid-image {
+    margin-left: -7.25em;
+    margin-top: -1.1em;
+  }
+
+  /* line 2178, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .biology-track-grid-image {
+    margin-left: -10.8em;
+    margin-top: -0.5em;
+  }
+
+  /* line 2183, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .clinical-track-grid-image {
+    margin-left: -29em;
+    margin-top: -1em;
+  }
+
+  /* line 2188, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  .environmental-track-grid-image {
+    margin-left: -7.25em;
+    margin-top: -1.1em;
+  }
+
+  /* line 2193, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #callout_wrapper {
+    background-color: #f4f4f4;
+    height: 24.4em;
+    margin-top: -21.4em;
+  }
+}
+/* END 1044 media query */
+/* ////////////////////////// END min-width: 1044px /////////////////*/
+/* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
+  /* line 2212, ../../../Sass (propritary - do not publish)/Feb 2015/style 9 Feb 2015.scss */
+  #csm-menu-padding {
+    margin-top: 0;
+  }
+}
