@@ -1,0 +1,5 @@
+/* removes footer-grid background from page */
+
+#callout_wrapper {
+    display: none;
+}
