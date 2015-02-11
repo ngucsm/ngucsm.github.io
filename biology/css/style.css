@@ -1,11 +1,11 @@
 /*
 Syntax error: Invalid CSS after "...ings-text-color": expected selector or at-rule, was ": $header-color;"
-        on line 2 of /Users/N/Dropbox/NGU CSM Code/Sass/style.scss
+        on line 3 of /Users/N/Dropbox/NGU CSM Code/Sass/style.scss
 
 1: /Users/N/Dropbox/NGU CSM Code/Sass/style.scss
 
 Backtrace:
-/Users/N/Dropbox/NGU CSM Code/Sass/style.scss:2
+/Users/N/Dropbox/NGU CSM Code/Sass/style.scss:3
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1129:in `expected'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:1066:in `expected'
 /Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/scss/parser.rb:28:in `parse'
@@ -51,4 +51,4 @@ org/jruby/RubyKernel.java:1419:in `loop'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...ings-text-color\": expected selector or at-rule, was \": $header-color;\"\A         on line 2 of /Users/N/Dropbox/NGU CSM Code/Sass/style.scss\A \A 1: /Users/N/Dropbox/NGU CSM Code/Sass/style.scss"; }
+  content: "Syntax error: Invalid CSS after \"...ings-text-color\": expected selector or at-rule, was \": $header-color;\"\A         on line 3 of /Users/N/Dropbox/NGU CSM Code/Sass/style.scss\A \A 1: /Users/N/Dropbox/NGU CSM Code/Sass/style.scss"; }
