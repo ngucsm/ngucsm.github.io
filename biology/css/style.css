@@ -2351,12 +2351,12 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   /* line 2258, ../../../../Sass/style.scss */
   a.side-why-desc {
     margin-left: 0;
-    padding: .5em 0 .3em .1em;
+    padding: .1em 0 .3em .1em;
     display: block;
     margin-top: 0.5em;
     width: 100%;
     color: #292929;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1em;
   }
 
@@ -2366,8 +2366,8 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     background: url("http://nspowers.org/ngucsm/right-double-bracket-arrow.svg") no-repeat scroll 0px 0px transparent;
     display: inline-block;
     width: 14px;
-    height: 11px;
-    padding-left: 1%;
+    height: 10px;
+    margin-left: .6%;
   }
 
   /* line 2279, ../../../../Sass/style.scss */
