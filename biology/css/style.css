@@ -1994,7 +1994,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border: 1px solid #E3E3E3; }
 
   /* line 2257, ../../../../Sass/style.scss */
-  .side-why-desc {
+  a.side-why-desc {
     margin-left: 0;
     padding: .5em 0 .3em .1em;
     display: block;
