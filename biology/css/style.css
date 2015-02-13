@@ -1971,18 +1971,32 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   .right-content-bottom {
     margin-bottom: 6em; }
 
-  /* line 2231, ../../../../Sass/style.scss */
+  /* line 2232, ../../../../Sass/style.scss */
+  .main-column {
+    width: 68%;
+    padding-right: 2%; }
+
+  /* line 2238, ../../../../Sass/style.scss */
+  .right-column-content ul {
+    margin-top: 2.4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    padding-left: 10.5%;
+    width: 90%; }
+
+  /* line 2248, ../../../../Sass/style.scss */
   .right-column-content ul li {
     list-style: outside none none;
-    width: 95%;
     margin-bottom: 7.8em;
     background-color: #FFF;
     padding-bottom: 1.3em;
     border: 1px solid #E3E3E3; }
 
-  /* line 2240, ../../../../Sass/style.scss */
+  /* line 2257, ../../../../Sass/style.scss */
   .side-why-desc {
     margin-left: 0;
+    padding: .5em 0 .3em .1em;
     display: block;
     margin-top: 0.5em;
     width: 100%;
@@ -1990,7 +2004,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 300;
     font-size: 1em; }
 
-  /* line 2251, ../../../../Sass/style.scss */
+  /* line 2269, ../../../../Sass/style.scss */
   .side-why-desc:after {
     content: "";
     background: url("http://nspowers.org/ngucsm/right-double-bracket-arrow.svg") no-repeat scroll 0px 0px transparent;
@@ -2001,6 +2015,6 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 2272, ../../../../Sass/style.scss */
+  /* line 2290, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0; } }
