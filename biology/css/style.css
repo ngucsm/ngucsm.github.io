@@ -2380,7 +2380,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* line 2288, ../../../../Sass/style.scss */
   .right-column-content ul li:hover .side-why-desc:after {
-    transition: translateX(4%) 2s ease;
+    transform: translateX(4px) 2s ease;
   }
 
   /* line 2310, ../../../../Sass/style.scss */
