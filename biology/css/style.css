@@ -1981,7 +1981,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     transform: translateY(0); }
 
   /* line 2244, ../../../../Sass/style.scss */
-  .explore-track a:hover .learn-more span a:after {
+  .explore-track a:hover > .learn-more span a:after {
     -webkit-transform: translateX(3px);
     transform: translateX(3px);
     -webkit-animation-duration: 1.5s;
