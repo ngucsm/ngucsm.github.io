@@ -2322,13 +2322,33 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-bottom: 6em;
   }
 
-  /* line 2238, ../../../../Sass/style.scss */
+  /* line 2234, ../../../../Sass/style.scss */
+  .learn-more span a:after {
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  /* line 2244, ../../../../Sass/style.scss */
+  .explore-tracks .learn-more span a:after {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+  }
+
+  /* line 2258, ../../../../Sass/style.scss */
   .main-column {
     width: 68%;
     padding-right: 2%;
   }
 
-  /* line 2244, ../../../../Sass/style.scss */
+  /* line 2264, ../../../../Sass/style.scss */
   .right-column-content ul {
     margin-top: 2.4em;
     margin-left: auto;
@@ -2338,7 +2358,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     width: 90%;
   }
 
-  /* line 2254, ../../../../Sass/style.scss */
+  /* line 2274, ../../../../Sass/style.scss */
   .right-column-content ul li {
     list-style: outside none none;
     margin-bottom: 7.8em;
@@ -2352,7 +2372,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     transition: box-shadow .7s ease-out;
   }
 
-  /* line 2268, ../../../../Sass/style.scss */
+  /* line 2288, ../../../../Sass/style.scss */
   .right-column-content ul li:hover {
     border: 1px solid #E3E3E3;
     -webkit-box-shadow: 0px 0px 21px 0px #ebebeb;
@@ -2361,7 +2381,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     color: #292929;
   }
 
-  /* line 2276, ../../../../Sass/style.scss */
+  /* line 2296, ../../../../Sass/style.scss */
   a.side-why-desc {
     margin-left: 0;
     padding: .1em 0 .3em .1em;
@@ -2373,7 +2393,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-size: 1em;
   }
 
-  /* line 2288, ../../../../Sass/style.scss */
+  /* line 2308, ../../../../Sass/style.scss */
   .side-why-desc:after {
     content: "";
     background: url("http://nspowers.org/ngucsm/right-double-bracket-arrow.svg") no-repeat scroll 0px 0px transparent;
@@ -2389,13 +2409,13 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     transform: translateY(0);
   }
 
-  /* line 2306, ../../../../Sass/style.scss */
+  /* line 2326, ../../../../Sass/style.scss */
   .right-column-content ul li:hover .side-why-desc {
     text-decoration: none;
     color: #bd0b0b;
   }
 
-  /* line 2311, ../../../../Sass/style.scss */
+  /* line 2331, ../../../../Sass/style.scss */
   .right-column-content ul li:hover .side-why-desc:after {
     -webkit-transform: translateX(3px);
     transform: translateX(3px);
@@ -2405,7 +2425,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     animation-timing-function: ease;
   }
 
-  /* line 2323, ../../../../Sass/style.scss */
+  /* line 2343, ../../../../Sass/style.scss */
   .menu-contact-box {
     border: 1px solid #E3E3E3;
   }
@@ -2414,7 +2434,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 2340, ../../../../Sass/style.scss */
+  /* line 2360, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0;
   }
