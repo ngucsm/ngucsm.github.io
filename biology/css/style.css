@@ -2367,10 +2367,36 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     display: inline-block;
     width: 14px;
     height: 10px;
-    margin-left: .6%;
+    margin-left: .8%;
+    -webkit-transition: left 0.2s ease;
+    transition: left 0.2s ease;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
 
-  /* line 2279, ../../../../Sass/style.scss */
+  /* line 2288, ../../../../Sass/style.scss */
+  .right-column-content ul li:hover .side-why-desc:after {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+    -webkit-animation-name: hang;
+    animation-name: hang;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+  /* line 2305, ../../../../Sass/style.scss */
   .menu-contact-box {
     border: 1px solid #E3E3E3;
   }
@@ -2379,7 +2405,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 2296, ../../../../Sass/style.scss */
+  /* line 2322, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0;
   }
