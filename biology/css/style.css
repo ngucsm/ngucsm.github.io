@@ -2380,10 +2380,15 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* line 2288, ../../../../Sass/style.scss */
   .right-column-content ul li:hover .side-why-desc:after {
-    transform: translateX(4px) 2s ease;
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
   }
 
-  /* line 2310, ../../../../Sass/style.scss */
+  /* line 2308, ../../../../Sass/style.scss */
   .menu-contact-box {
     border: 1px solid #E3E3E3;
   }
@@ -2392,7 +2397,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 2327, ../../../../Sass/style.scss */
+  /* line 2325, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0;
   }
