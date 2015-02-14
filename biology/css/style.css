@@ -2451,7 +2451,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   #header_wrapper {
     border-top: 2.4em solid #222;
     height: 14em;
-    background: url("http://nspowers.org/bg-body-325-i-dark-top-no-shadow.jpg") repeat-x scroll 0% 0% transparent;
+    background: url("http://nspowers.org/biomenu/bg-body-325-i-dark-top-no-shadow.jpg") repeat-x scroll 0% 0% transparent;
   }
 
   /* line 2380, ../../../../Sass/style.scss */
@@ -2487,12 +2487,12 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     background: url("http://nspowers.org/biomenu/ngu-full-title-white-on-trans.png") no-repeat scroll 0% 0%/100% auto transparent;
     height: 12em;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
+    margin-left: -0.5%;
+    float: left;
+    padding-right: 2%;
   }
 
-  /* line 2414, ../../../../Sass/style.scss */
+  /* line 2415, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -2502,24 +2502,31 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     width: 85%;
   }
 
-  /* line 2423, ../../../../Sass/style.scss */
+  /* line 2424, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */
   }
 
-  /* line 2427, ../../../../Sass/style.scss */
+  /* line 2428, ../../../../Sass/style.scss */
   #hdrImg .item img {
-    width: 41%;
-    float: right;
-    padding-right: 14.8%;
+    width: 75%;
+    float: left;
+    margin-left: 23.8%;
+  }
+
+  /* line 2434, ../../../../Sass/style.scss */
+  #hdrImg .img {
+    overflow: hidden;
+    margin-left: 41%;
+    width: 59.5%;
   }
 }
 /* END 1044 media query */
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 2445, ../../../../Sass/style.scss */
+  /* line 2452, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0;
   }
