@@ -1080,7 +1080,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   #header_wrapper {
     border-top: 2.4em solid #222;
     height: 14em;
-    background: url("http://ngucsm.github.io/biology/assets/tablet-header-gradient-background.jpg.jpg") repeat-x scroll 0% 0% transparent; }
+    background: url("http://ngucsm.github.io/biology/assets/tablet-header-gradient-background.jpg") repeat-x scroll 0% 0% transparent; }
 
   /* line 1234, ../../../../Sass/style.scss */
   #search .toggle-search {
