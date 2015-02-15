@@ -1595,7 +1595,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   .side-column {
     width: 21%;
     margin-left: 1.7%;
-    height: 79em;
+    height: 49.5em;
     border-left: 1px solid #EAEAEA;
     padding-left: 2%;
   }
@@ -1716,14 +1716,14 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* line 1643, ../../../../Sass/style.scss */
   .clinical-track-grid-image {
-    margin-left: -29em;
-    margin-top: -1em;
+    margin-top: -2.2em;
+    margin-left: -29.35em;
   }
 
   /* line 1648, ../../../../Sass/style.scss */
   .environmental-track-grid-image {
-    margin-left: -11.25em;
-    margin-top: -1.1em;
+    margin-top: -1.2em;
+    margin-left: -10.5em;
   }
 
   /* line 1653, ../../../../Sass/style.scss */
