@@ -1265,7 +1265,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   #header_wrapper {
     border-top: 2.4em solid #222;
     height: 14em;
-    background: url("http://ngucsm.github.io/biology/assets/header-background-gradient.jpg") repeat-x scroll 0% 0% transparent;
+    background: url("http://ngucsm.github.io/biology/assets/tablet-header-background-gradient.jpg") repeat-x scroll 0% 0% transparent;
   }
 
   /* line 1234, ../../../../Sass/style.scss */
@@ -1296,7 +1296,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: -0.6%;
     text-decoration: none;
     overflow: hidden;
-    background: url("http://ngucsm.github.io/biology/assets/ngu-brandmark-480x120.png") no-repeat scroll 0% 0%/100% auto transparent;
+    background: url("http://ngucsm.github.io/biology/assets/ngu-brandmark.png") no-repeat scroll 0% 0%/100% auto transparent;
     height: 12em;
     display: block;
     margin-left: -0.5%;
