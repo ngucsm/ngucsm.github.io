@@ -1099,7 +1099,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   /* Begin Right Column */
   /* line 1257, ../../../../Sass/style.scss */
   .side-column {
-    width: 21%; }
+    width: 26%; }
 
   /* line 1261, ../../../../Sass/style.scss */
   #right-side-column {
@@ -1118,7 +1118,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* line 1276, ../../../../Sass/style.scss */
   .right-column-content ul li:first-child {
-    margin-top: 5.2em; }
+    margin-top: -0.6em; }
 
   /* END Right Column */
   /* line 1282, ../../../../Sass/style.scss */
