@@ -2529,25 +2529,31 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     background: transparent;
     height: 2.39em; }
 
-  /* line 2864, ../../../../Sass/style.scss */
-  .menu-column {
+  /* line 2865, ../../../../Sass/style.scss */
+  li.admissions .menu-colum,
+  li.academics .menu-colum {
     width: 33.3%; }
 
-  /* line 2869, ../../../../Sass/style.scss */
+  /* line 2871, ../../../../Sass/style.scss */
+  li.admissions .menu-colum a,
+  li.academics .menu-colum a {
+    text-align: center; }
+
+  /* line 2876, ../../../../Sass/style.scss */
   .menu li ul .menu-column li {
     min-height: 300px; }
 
-  /* line 2876, ../../../../Sass/style.scss */
+  /* line 2883, ../../../../Sass/style.scss */
   .menu li.admissions ul .menu-column li,
   .menu li.academics ul .menu-column li {
     min-height: 42px;
     background: transparent; }
 
-  /* line 2882, ../../../../Sass/style.scss */
+  /* line 2889, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li {
     min-height: 225px; }
 
-  /* line 2923, ../../../../Sass/style.scss */
+  /* line 2930, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.apply-to-ngu a,
   #megaMenu .menu li.customDrop ul li ul li.plan-your-visit a,
   #megaMenu .menu li.customDrop ul li ul li.contact-admissions a,
@@ -2576,7 +2582,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     font-size: 14px; }
 
-  /* line 2963, ../../../../Sass/style.scss */
+  /* line 2970, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li ul.lvl12 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl13 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl14 li a,
@@ -2606,38 +2612,38 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-size: 12px;
     border: none; }
 
-  /* line 2982, ../../../../Sass/style.scss */
+  /* line 2989, ../../../../Sass/style.scss */
   .menu li.customDrop ul {
     background-color: #F5F5F5; }
 
-  /* line 2987, ../../../../Sass/style.scss */
+  /* line 2994, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     color: #BD0B0B; }
 
-  /* line 2994, ../../../../Sass/style.scss */
+  /* line 3001, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li a {
     color: #BD0B0B;
     padding-top: 7.1%;
     font-weight: 400; }
 
-  /* line 3001, ../../../../Sass/style.scss */
+  /* line 3008, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.adm-get-connected {
     margin-bottom: 6em; }
 
-  /* line 3005, ../../../../Sass/style.scss */
+  /* line 3012, ../../../../Sass/style.scss */
   .menu > li.customDrop ul .menu-column > li:hover > a {
     text-decoration: underline;
     background: #E6E6E6; }
 
-  /* line 3010, ../../../../Sass/style.scss */
+  /* line 3017, ../../../../Sass/style.scss */
   .customDrop .menu-column > li:hover > ul {
     background: none repeat scroll 0% 0% #F5F5F5 !important; }
 
-  /* line 3014, ../../../../Sass/style.scss */
+  /* line 3021, ../../../../Sass/style.scss */
   .menu-column-wrap {
     background-color: #F5F5F5; }
 
-  /* line 3018, ../../../../Sass/style.scss */
+  /* line 3025, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -2646,19 +2652,19 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: auto;
     width: 85%; }
 
-  /* line 3027, ../../../../Sass/style.scss */
+  /* line 3034, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */ }
 
-  /* line 3031, ../../../../Sass/style.scss */
+  /* line 3038, ../../../../Sass/style.scss */
   #hdrImg .item img {
     width: 62%;
     float: left;
     margin-left: 36.8%;
     padding-top: 1.9%; }
 
-  /* line 3038, ../../../../Sass/style.scss */
+  /* line 3045, ../../../../Sass/style.scss */
   #hdrImg .img {
     overflow: hidden;
     margin-left: 41%;
@@ -2667,6 +2673,6 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 3057, ../../../../Sass/style.scss */
+  /* line 3064, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0; } }
