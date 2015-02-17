@@ -919,7 +919,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   /* line 1051, ../../../../Sass/style.scss */
   #header_wrapper {
     border-top: 2.1em solid #222;
-    height: 6em;
+    height: 4.5em;
     background: url("http://ngucsm.github.io/biology/assets/desktop-header-background-gradient.png") repeat-x scroll 0% 0% transparent; }
 
   /* line 1058, ../../../../Sass/style.scss */
@@ -942,7 +942,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-right: 2%;
     height: 0;
     margin-top: 3em;
-    padding-top: 9em; }
+    padding-top: 6em; }
 
   /* line 1082, ../../../../Sass/style.scss */
   #hdrImg {
@@ -963,7 +963,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     width: 68%;
     float: left;
     margin-left: 23%;
-    padding-top: 11.5%; }
+    padding-top: 26.5%; }
 
   /* line 1102, ../../../../Sass/style.scss */
   #hdrImg .img {
@@ -971,41 +971,46 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: 41%;
     width: 59.5%; }
 
+  /* line 1108, ../../../../Sass/style.scss */
+  #innerWrapper {
+    padding-top: 21px;
+    padding-bottom: 40px; }
+
   /* Department Menu Styles */
-  /* line 1114, ../../../../Sass/style.scss */
+  /* line 1118, ../../../../Sass/style.scss */
   #csm-menu {
     background-color: transparent; }
 
-  /* line 1118, ../../../../Sass/style.scss */
+  /* line 1122, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: #EEE;
     width: 77.7%;
     padding: 14px; }
 
-  /* line 1124, ../../../../Sass/style.scss */
+  /* line 1128, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     width: 111%; }
 
-  /* line 1128, ../../../../Sass/style.scss */
+  /* line 1132, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list a span:before {
     padding-right: 5%; }
 
-  /* line 1132, ../../../../Sass/style.scss */
+  /* line 1136, ../../../../Sass/style.scss */
   .li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     width: 79%; }
 
   /* Begin Center Content */
-  /* line 1138, ../../../../Sass/style.scss */
+  /* line 1142, ../../../../Sass/style.scss */
   .center-column {
     width: 100%; }
 
   /* END Center Content */
   /* Begin Right Column */
-  /* line 1146, ../../../../Sass/style.scss */
+  /* line 1150, ../../../../Sass/style.scss */
   .right-side-column {
     margin: 0; }
 
-  /* line 1150, ../../../../Sass/style.scss */
+  /* line 1154, ../../../../Sass/style.scss */
   .right-column-content {
     width: 117%;
     margin-left: 18%;
@@ -1016,17 +1021,17 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ipad portrait ////////////////////////// min-width: 768px ////////////////////*/
 @media only screen and (min-width: 768px) and (max-width: 974px) {
   /* Page Heading Styles */
-  /* line 1169, ../../../../Sass/style.scss */
+  /* line 1173, ../../../../Sass/style.scss */
   #hdrImg {
     width: 81.2%; }
 
-  /* line 1173, ../../../../Sass/style.scss */
+  /* line 1177, ../../../../Sass/style.scss */
   #breadcrumbs {
     margin-left: 1%; }
 
   /* END Page Heading Styles */
   /* Department Menu Styles */
-  /* line 1181, ../../../../Sass/style.scss */
+  /* line 1185, ../../../../Sass/style.scss */
   #csm-menu {
     margin-left: -3.6%;
     width: 105.7%;
@@ -1034,43 +1039,43 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-bottom: 2%;
     border-bottom: 5px solid #8A0000; }
 
-  /* line 1189, ../../../../Sass/style.scss */
+  /* line 1193, ../../../../Sass/style.scss */
   .csm-menu-ul {
     margin-left: .2%; }
 
-  /* line 1193, ../../../../Sass/style.scss */
+  /* line 1197, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: #EEE;
     width: 94%; }
 
-  /* line 1198, ../../../../Sass/style.scss */
+  /* line 1202, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     width: 100%; }
 
   /* controls space between ">" and track title in menu */
-  /* line 1203, ../../../../Sass/style.scss */
+  /* line 1207, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list a span:before {
     padding-right: 1%; }
 
-  /* line 1207, ../../../../Sass/style.scss */
+  /* line 1211, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected {
     width: 100.5%; }
 
-  /* line 1211, ../../../../Sass/style.scss */
+  /* line 1215, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     border-left: none;
     font-weight: bold;
     background-color: #8A0000;
     color: #FFF; }
 
-  /* line 1218, ../../../../Sass/style.scss */
+  /* line 1222, ../../../../Sass/style.scss */
   .department-menu-btn {
     position: absolute;
     margin-top: -6em;
     margin-left: 78%;
     padding: 1.5%; }
 
-  /* line 1225, ../../../../Sass/style.scss */
+  /* line 1229, ../../../../Sass/style.scss */
   .menu-title {
     margin-top: 0;
     margin-bottom: -4%;
@@ -1081,26 +1086,26 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border-bottom: 2px solid #8A0000;
     color: #666; }
 
-  /* line 1236, ../../../../Sass/style.scss */
+  /* line 1240, ../../../../Sass/style.scss */
   .back-to-top {
     margin-left: 62%; }
 
   /* END Department Menu Styles */
-  /* line 1244, ../../../../Sass/style.scss */
+  /* line 1248, ../../../../Sass/style.scss */
   #header_wrapper {
     border-top: 2.1em solid #222;
     height: 6em;
     background: url("http://ngucsm.github.io/biology/assets/desktop-header-background-gradient.png") repeat-x scroll 0% 0% transparent; }
 
-  /* line 1251, ../../../../Sass/style.scss */
+  /* line 1255, ../../../../Sass/style.scss */
   #search .toggle-search {
     padding: 19.28% 19px; }
 
-  /* line 1256, ../../../../Sass/style.scss */
+  /* line 1260, ../../../../Sass/style.scss */
   #masthead {
     margin-top: -5.5em; }
 
-  /* line 1261, ../../../../Sass/style.scss */
+  /* line 1265, ../../../../Sass/style.scss */
   #header #masthead a, #header #masthead a:visited {
     width: 47.8%;
     text-decoration: none;
@@ -1114,7 +1119,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-top: 3em;
     padding-top: 9em; }
 
-  /* line 1275, ../../../../Sass/style.scss */
+  /* line 1279, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -1123,79 +1128,79 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: auto;
     width: 85%; }
 
-  /* line 1284, ../../../../Sass/style.scss */
+  /* line 1288, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */ }
 
-  /* line 1288, ../../../../Sass/style.scss */
+  /* line 1292, ../../../../Sass/style.scss */
   #hdrImg .item img {
     width: 68%;
     float: left;
     margin-left: 23%;
     padding-top: 11.5%; }
 
-  /* line 1295, ../../../../Sass/style.scss */
+  /* line 1299, ../../../../Sass/style.scss */
   #hdrImg .img {
     overflow: hidden;
     margin-left: 41%;
     width: 59.5%; }
 
   /* Columns and Page Structure */
-  /* line 1308, ../../../../Sass/style.scss */
+  /* line 1312, ../../../../Sass/style.scss */
   #contentWrapper {
     border: none; }
 
-  /* line 1312, ../../../../Sass/style.scss */
+  /* line 1316, ../../../../Sass/style.scss */
   .content-container {
     width: 99.8%; }
 
   /* END Columns and Page Structure */
   /* Begin Right Column */
-  /* line 1320, ../../../../Sass/style.scss */
+  /* line 1324, ../../../../Sass/style.scss */
   .side-column {
     width: 26%; }
 
-  /* line 1324, ../../../../Sass/style.scss */
+  /* line 1328, ../../../../Sass/style.scss */
   #right-side-column {
     margin: 0;
     padding-right: 2.5%; }
 
-  /* line 1329, ../../../../Sass/style.scss */
+  /* line 1333, ../../../../Sass/style.scss */
   .right-column-content {
     width: 114%;
     margin-left: -6%; }
 
-  /* line 1334, ../../../../Sass/style.scss */
+  /* line 1338, ../../../../Sass/style.scss */
   .right-column-content ul li {
     width: 88%;
     margin-left: 6.5%; }
 
-  /* line 1339, ../../../../Sass/style.scss */
+  /* line 1343, ../../../../Sass/style.scss */
   .right-column-content ul li:first-child {
     margin-top: -0.6em; }
 
   /* END Right Column */
-  /* line 1345, ../../../../Sass/style.scss */
+  /* line 1349, ../../../../Sass/style.scss */
   .faculty-info-box {
     max-width: 50%; }
 
-  /* line 1349, ../../../../Sass/style.scss */
+  /* line 1353, ../../../../Sass/style.scss */
   .faculty-bio-photo {
     max-width: 90%; }
 
-  /* line 1353, ../../../../Sass/style.scss */
+  /* line 1357, ../../../../Sass/style.scss */
   .faculty-bio-box {
     max-width: 40%; }
 
-  /* line 1357, ../../../../Sass/style.scss */
+  /* line 1361, ../../../../Sass/style.scss */
   .related-content-container {
     margin-right: -15%;
     margin-top: 13%; } }
 /* ////////////////////////// END max-width: 974px /////////////////*/
 @media only screen and (min-width: 769px) and (max-width: 975px) {
   /* Department Menu Styles */
-  /* line 1372, ../../../../Sass/style.scss */
+  /* line 1376, ../../../../Sass/style.scss */
   #csm-menu {
     margin-left: -16.6%;
     width: 527%;
@@ -1205,43 +1210,43 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-bottom: 13%;
     border-bottom: 5px solid #8A0000; }
 
-  /* line 1382, ../../../../Sass/style.scss */
+  /* line 1386, ../../../../Sass/style.scss */
   .csm-menu-ul {
     margin-left: .2%; }
 
-  /* line 1386, ../../../../Sass/style.scss */
+  /* line 1390, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: #EEE;
     width: 94%; }
 
-  /* line 1391, ../../../../Sass/style.scss */
+  /* line 1395, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     width: 100%; }
 
   /* controls space between ">" and track title in menu */
-  /* line 1396, ../../../../Sass/style.scss */
+  /* line 1400, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list a span:before {
     padding-right: 1%; }
 
-  /* line 1400, ../../../../Sass/style.scss */
+  /* line 1404, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected {
     width: 100.5%; }
 
-  /* line 1404, ../../../../Sass/style.scss */
+  /* line 1408, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     border-left: none;
     font-weight: bold;
     background-color: #8A0000;
     color: #FFF; }
 
-  /* line 1411, ../../../../Sass/style.scss */
+  /* line 1415, ../../../../Sass/style.scss */
   .department-menu-btn {
     position: absolute;
     margin-top: -6em;
     margin-left: 78%;
     padding: 1.5%; }
 
-  /* line 1418, ../../../../Sass/style.scss */
+  /* line 1422, ../../../../Sass/style.scss */
   .menu-title {
     margin-top: 4%;
     margin-bottom: -4%;
@@ -1252,7 +1257,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border-bottom: 2px solid #8A0000;
     color: #666; }
 
-  /* line 1429, ../../../../Sass/style.scss */
+  /* line 1433, ../../../../Sass/style.scss */
   .back-to-top {
     margin-left: 62%; }
 
@@ -1261,31 +1266,31 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// min-width: 976px ////////////////////*/
 /* ipad landscape this is where the csm menu loads left and there is the most movement and realigning */
 @media only screen and (min-width: 976px) and (max-width: 1034px) {
-  /* line 1450, ../../../../Sass/style.scss */
+  /* line 1454, ../../../../Sass/style.scss */
   #header_wrapper {
     border-top: 2.4em solid #222;
     height: 11.675em;
     background: url("http://ngucsm.github.io/biology/assets/tablet-header-gradient-background.jpg") repeat-x scroll 0% 0% transparent; }
 
-  /* line 1456, ../../../../Sass/style.scss */
+  /* line 1460, ../../../../Sass/style.scss */
   #search .toggle-search {
     padding: 19.28% 19px; }
 
-  /* line 1460, ../../../../Sass/style.scss */
+  /* line 1464, ../../../../Sass/style.scss */
   #megaMenu {
     height: 0;
     margin-top: 5.2%; }
 
-  /* line 1465, ../../../../Sass/style.scss */
+  /* line 1469, ../../../../Sass/style.scss */
   #megaMenu .menu {
     margin-top: 14.25%;
     margin-left: -1.5%; }
 
-  /* line 1470, ../../../../Sass/style.scss */
+  /* line 1474, ../../../../Sass/style.scss */
   #masthead {
     margin-top: -5.5em; }
 
-  /* line 1474, ../../../../Sass/style.scss */
+  /* line 1478, ../../../../Sass/style.scss */
   #header #masthead a, #header #masthead a:visited {
     width: 46.8%;
     margin-left: -0.6%;
@@ -1298,7 +1303,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     float: left;
     padding-right: 2%; }
 
-  /* line 1487, ../../../../Sass/style.scss */
+  /* line 1491, ../../../../Sass/style.scss */
   #megaMenu li > ul.lvl10 {
     top: 100%;
     width: 96.4%;
@@ -1310,69 +1315,69 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     height: 74%;
     width: 102.7%; }
 
-  /* line 1501, ../../../../Sass/style.scss */
+  /* line 1505, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul {
     width: 98%;
     background: #F5F5F5; }
 
-  /* line 1507, ../../../../Sass/style.scss */
+  /* line 1511, ../../../../Sass/style.scss */
   #megaMenu li ul li ul li a:hover {
     text-decoration: none; }
 
-  /* line 1511, ../../../../Sass/style.scss */
+  /* line 1515, ../../../../Sass/style.scss */
   #megaMenu li ul li a:hover {
     text-decoration: underline; }
 
-  /* line 1515, ../../../../Sass/style.scss */
+  /* line 1519, ../../../../Sass/style.scss */
   #megaMenu .menu li ul li a {
     color: #BD0B0B; }
 
-  /* line 1519, ../../../../Sass/style.scss */
+  /* line 1523, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul {
     background-color: #F5F5F5; }
 
-  /* line 1523, ../../../../Sass/style.scss */
+  /* line 1527, ../../../../Sass/style.scss */
   .menu li.customDrop ul {
     background-color: #F5F5F5; }
 
-  /* line 1527, ../../../../Sass/style.scss */
+  /* line 1531, ../../../../Sass/style.scss */
   .menu > li.customDrop ul .menu-column > li:hover > a {
     text-decoration: underline;
     background: #E6E6E6; }
 
-  /* line 1532, ../../../../Sass/style.scss */
+  /* line 1536, ../../../../Sass/style.scss */
   .customDrop .menu-column > li:hover > ul {
     background: none repeat scroll 0% 0% #F5F5F5 !important; }
 
-  /* line 1536, ../../../../Sass/style.scss */
+  /* line 1540, ../../../../Sass/style.scss */
   .menu-column-wrap {
     background-color: #F5F5F5; }
 
-  /* line 1554, ../../../../Sass/style.scss */
+  /* line 1558, ../../../../Sass/style.scss */
   #header_wrapper {
     border-top: 2.1em solid #222;
     height: 12em;
     background: url("http://ngucsm.github.io/biology/assets/desktop-header-background-gradient.png") repeat-x scroll 0% 0% transparent; }
 
-  /* line 1561, ../../../../Sass/style.scss */
+  /* line 1565, ../../../../Sass/style.scss */
   #search .toggle-search {
     padding: 19.28% 19px; }
 
-  /* line 1566, ../../../../Sass/style.scss */
+  /* line 1570, ../../../../Sass/style.scss */
   #megaMenu {
     height: 0;
     margin-top: 5.2%; }
 
-  /* line 1572, ../../../../Sass/style.scss */
+  /* line 1576, ../../../../Sass/style.scss */
   #megaMenu .menu {
     margin-top: 14.9%;
     margin-left: -1.5%; }
 
-  /* line 1578, ../../../../Sass/style.scss */
+  /* line 1582, ../../../../Sass/style.scss */
   #masthead {
     margin-top: -5.5em; }
 
-  /* line 1583, ../../../../Sass/style.scss */
+  /* line 1587, ../../../../Sass/style.scss */
   #header #masthead a, #header #masthead a:visited {
     width: 46.8%;
     margin-left: -0.6%;
@@ -1385,7 +1390,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     float: left;
     padding-right: 2%; }
 
-  /* line 1597, ../../../../Sass/style.scss */
+  /* line 1601, ../../../../Sass/style.scss */
   #megaMenu li > ul {
     top: 100%;
     width: 96.4%;
@@ -1394,103 +1399,103 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border: 4px solid #f5f5f5;
     border-top: none; }
 
-  /* line 1607, ../../../../Sass/style.scss */
+  /* line 1611, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul {
     width: 98%;
     background: #F5F5F5; }
 
-  /* line 1613, ../../../../Sass/style.scss */
+  /* line 1617, ../../../../Sass/style.scss */
   #megaMenu li ul li ul li a:hover {
     text-decoration: none; }
 
-  /* line 1618, ../../../../Sass/style.scss */
+  /* line 1622, ../../../../Sass/style.scss */
   #megaMenu li ul li a:hover {
     text-decoration: underline; }
 
-  /* line 1623, ../../../../Sass/style.scss */
+  /* line 1627, ../../../../Sass/style.scss */
   #megaMenu .menu li ul li a {
     color: #BD0B0B;
     padding-top: 7.1%;
     font-weight: 700; }
 
-  /* line 1629, ../../../../Sass/style.scss */
+  /* line 1633, ../../../../Sass/style.scss */
   #megaMenu .menu li ul li ul li a {
     padding-top: 4.8%;
     font-weight: 400; }
 
-  /* line 1635, ../../../../Sass/style.scss */
+  /* line 1639, ../../../../Sass/style.scss */
   .menu li ul.lvl25 .menu-column li.undergraduate {
     min-height: 42px;
     max-height: 42px;
     background-color: transparent; }
 
-  /* line 1642, ../../../../Sass/style.scss */
+  /* line 1646, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.grad-school-resources {
     margin-top: 8em; }
 
-  /* line 1647, ../../../../Sass/style.scss */
+  /* line 1651, ../../../../Sass/style.scss */
   .menu li.admissions ul .menu-column li, .menu li.academics ul .menu-column li {
     min-height: 34px;
     background: transparent;
     height: 2.39em; }
 
-  /* line 1655, ../../../../Sass/style.scss */
+  /* line 1659, ../../../../Sass/style.scss */
   li.admissions .menu-colum,
   li.academics .menu-colum {
     width: 33.3%; }
 
-  /* line 1661, ../../../../Sass/style.scss */
+  /* line 1665, ../../../../Sass/style.scss */
   li.admissions .menu-colum a,
   li.academics .menu-colum a {
     text-align: center; }
 
-  /* line 1666, ../../../../Sass/style.scss */
+  /* line 1670, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul.lvl10 .menu-column-wrap .menu-column {
     width: 33.3%; }
 
-  /* line 1671, ../../../../Sass/style.scss */
+  /* line 1675, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul.lvl25 .menu-column-wrap .menu-column {
     width: 33.3%; }
 
-  /* line 1678, ../../../../Sass/style.scss */
+  /* line 1682, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl11 {
     width: 98.4%;
     height: 39em; }
 
-  /* line 1684, ../../../../Sass/style.scss */
+  /* line 1688, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl20 {
     width: 98.4%;
     height: 16em; }
 
-  /* line 1690, ../../../../Sass/style.scss */
+  /* line 1694, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl26 {
     width: 98.4%;
     height: 39em; }
 
-  /* line 1696, ../../../../Sass/style.scss */
+  /* line 1700, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl35 {
     width: 98.4%;
     height: 43.5em; }
 
-  /* line 1702, ../../../../Sass/style.scss */
+  /* line 1706, ../../../../Sass/style.scss */
   .menu li ul .menu-column li {
     min-height: 300px; }
 
-  /* line 1709, ../../../../Sass/style.scss */
+  /* line 1713, ../../../../Sass/style.scss */
   .menu li.admissions ul .menu-column li,
   .menu li.academics ul .menu-column li {
     min-height: 42px;
     background: transparent; }
 
-  /* line 1715, ../../../../Sass/style.scss */
+  /* line 1719, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li {
     min-height: 240px; }
 
-  /* line 1719, ../../../../Sass/style.scss */
+  /* line 1723, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li.academics-undergraduate ul li {
     min-height: 300px; }
 
-  /* line 1764, ../../../../Sass/style.scss */
+  /* line 1768, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.apply-to-ngu a,
   #megaMenu .menu li.customDrop ul li ul li.plan-your-visit a,
   #megaMenu .menu li.customDrop ul li ul li.contact-admissions a,
@@ -1519,7 +1524,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     font-size: 14px; }
 
-  /* line 1805, ../../../../Sass/style.scss */
+  /* line 1809, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li ul.lvl12 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl13 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl14 li a,
@@ -1550,47 +1555,47 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border: none;
     margin-top: -0.7em; }
 
-  /* line 1813, ../../../../Sass/style.scss */
+  /* line 1817, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul {
     height: 0;
     width: 103%; }
 
-  /* line 1818, ../../../../Sass/style.scss */
+  /* line 1822, ../../../../Sass/style.scss */
   .menu li.customDrop ul {
     background-color: #F5F5F5; }
 
-  /* line 1823, ../../../../Sass/style.scss */
+  /* line 1827, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     color: #BD0B0B; }
 
-  /* line 1828, ../../../../Sass/style.scss */
+  /* line 1832, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li a {
     color: #BD0B0B;
     padding-top: 8.1%;
     font-weight: 400; }
 
-  /* line 1835, ../../../../Sass/style.scss */
+  /* line 1839, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.adm-get-connected {
     margin-bottom: 6em; }
 
-  /* line 1839, ../../../../Sass/style.scss */
+  /* line 1843, ../../../../Sass/style.scss */
   .menu > li.customDrop ul .menu-column > li:hover > a {
     text-decoration: underline;
     background: #E6E6E6; }
 
-  /* line 1844, ../../../../Sass/style.scss */
+  /* line 1848, ../../../../Sass/style.scss */
   .customDrop .menu-column > li:hover > ul {
     background: none repeat scroll 0% 0% #F5F5F5 !important; }
 
-  /* line 1849, ../../../../Sass/style.scss */
+  /* line 1853, ../../../../Sass/style.scss */
   .menu-column-wrap {
     background-color: #F5F5F5; }
 
-  /* line 1854, ../../../../Sass/style.scss */
+  /* line 1858, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     text-align: center; }
 
-  /* line 1872, ../../../../Sass/style.scss */
+  /* line 1876, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -1599,46 +1604,46 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: auto;
     width: 85%; }
 
-  /* line 1881, ../../../../Sass/style.scss */
+  /* line 1885, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */ }
 
-  /* line 1885, ../../../../Sass/style.scss */
+  /* line 1889, ../../../../Sass/style.scss */
   #hdrImg .item img {
     width: 64%;
     float: left;
     margin-left: 28%;
     margin-top: 2.4%; }
 
-  /* line 1892, ../../../../Sass/style.scss */
+  /* line 1896, ../../../../Sass/style.scss */
   #hdrImg .img {
     overflow: hidden;
     margin-left: 41%;
     width: 59.5%; }
 
   /* Page Heading Styles */
-  /* line 1904, ../../../../Sass/style.scss */
+  /* line 1908, ../../../../Sass/style.scss */
   #innerWrapper {
     padding-right: .4%;
     padding-top: 17px;
     padding-bottom: 0; }
 
-  /* line 1911, ../../../../Sass/style.scss */
+  /* line 1915, ../../../../Sass/style.scss */
   #innerWrapper {
     padding-top: 17px;
     padding-bottom: 0; }
 
-  /* line 1916, ../../../../Sass/style.scss */
+  /* line 1920, ../../../../Sass/style.scss */
   #hdrImg {
     width: 78.7%;
     width: 79.8%; }
 
-  /* line 1921, ../../../../Sass/style.scss */
+  /* line 1925, ../../../../Sass/style.scss */
   #breadcrumbs {
     margin-left: -28%; }
 
-  /* line 1925, ../../../../Sass/style.scss */
+  /* line 1929, ../../../../Sass/style.scss */
   h1.pg_title {
     color: #bd0b0b;
     margin-left: -30.7%;
@@ -1648,79 +1653,79 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* END Page Heading Styles */
   /* Department Menu Styles */
-  /* line 1937, ../../../../Sass/style.scss */
+  /* line 1941, ../../../../Sass/style.scss */
   #csm-menu {
     margin-top: 45.1%; }
 
-  /* line 1941, ../../../../Sass/style.scss */
+  /* line 1945, ../../../../Sass/style.scss */
   .csm-menu-ul {
     padding-left: .06em;
     width: 85%; }
 
-  /* line 1946, ../../../../Sass/style.scss */
+  /* line 1950, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: transparent; }
 
-  /* line 1950, ../../../../Sass/style.scss */
+  /* line 1954, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     margin-left: -2.8em;
     width: 150%;
     padding: .3em; }
 
-  /* line 1956, ../../../../Sass/style.scss */
+  /* line 1960, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     border-left: 7px solid #A40A00;
     font-weight: 700;
     background-color: transparent;
     color: #A40A00; }
 
-  /* line 1963, ../../../../Sass/style.scss */
+  /* line 1967, ../../../../Sass/style.scss */
   .department-menu-btn {
     display: none; }
 
-  /* line 1967, ../../../../Sass/style.scss */
+  /* line 1971, ../../../../Sass/style.scss */
   .menu-title {
     display: none; }
 
-  /* line 1971, ../../../../Sass/style.scss */
+  /* line 1975, ../../../../Sass/style.scss */
   .back-to-top {
     display: none; }
 
   /* END Department Menu Styles */
   /* Columns and Page Structure */
-  /* line 1979, ../../../../Sass/style.scss */
+  /* line 1983, ../../../../Sass/style.scss */
   .content-container {
     margin-top: -2.23em; }
 
-  /* line 1983, ../../../../Sass/style.scss */
+  /* line 1987, ../../../../Sass/style.scss */
   .main-wrapper {
     padding: 0; }
 
-  /* line 1987, ../../../../Sass/style.scss */
+  /* line 1991, ../../../../Sass/style.scss */
   .column-container {
     background-color: transparent;
     border-left: 15.5em solid transparent;
     margin-left: -15.4em;
     margin-top: 1.65em; }
 
-  /* line 1994, ../../../../Sass/style.scss */
+  /* line 1998, ../../../../Sass/style.scss */
   .hero-img {
     width: 99%; }
 
   /* Begin Center Column */
-  /* line 2000, ../../../../Sass/style.scss */
+  /* line 2004, ../../../../Sass/style.scss */
   .center-column {
     padding: 0;
     margin: 0;
     margin-top: 1em; }
 
-  /* line 2008, ../../../../Sass/style.scss */
+  /* line 2012, ../../../../Sass/style.scss */
   h3.heading-text {
     margin-left: -0.2%; }
 
   /* END Center Column */
   /* Begin Right Column */
-  /* line 2016, ../../../../Sass/style.scss */
+  /* line 2020, ../../../../Sass/style.scss */
   .side-column {
     width: 21%;
     margin-left: 1.7%;
@@ -1728,121 +1733,121 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border-left: 1px solid #EAEAEA;
     padding-left: 2%; }
 
-  /* line 2024, ../../../../Sass/style.scss */
+  /* line 2028, ../../../../Sass/style.scss */
   #right-side-column {
     margin: 0;
     margin-top: -0.4%;
     margin-left: -2.27em; }
 
-  /* line 2030, ../../../../Sass/style.scss */
+  /* line 2034, ../../../../Sass/style.scss */
   .right-column-content {
     margin-right: -13%;
     margin-left: 9%; }
 
-  /* line 2035, ../../../../Sass/style.scss */
+  /* line 2039, ../../../../Sass/style.scss */
   .right-column-content ul li:first-child {
     margin-top: -7.2%; }
 
-  /* line 2039, ../../../../Sass/style.scss */
+  /* line 2043, ../../../../Sass/style.scss */
   .side-why-desc {
     width: 80%; }
 
-  /* line 2043, ../../../../Sass/style.scss */
+  /* line 2047, ../../../../Sass/style.scss */
   .related-content-container {
     width: 115.5%;
     margin-right: -3.2em; }
 
   /* END Right Column */
-  /* line 2050, ../../../../Sass/style.scss */
+  /* line 2054, ../../../../Sass/style.scss */
   .faculty-info-box {
     max-width: 50%; }
 
-  /* line 2054, ../../../../Sass/style.scss */
+  /* line 2058, ../../../../Sass/style.scss */
   .faculty-bio-box {
     max-width: 60%; }
 
-  /* line 2061, ../../../../Sass/style.scss */
+  /* line 2065, ../../../../Sass/style.scss */
   .explore-grid-container {
     margin-top: 0;
     width: 94%; }
 
-  /* line 2066, ../../../../Sass/style.scss */
+  /* line 2070, ../../../../Sass/style.scss */
   .explore-grid-properties {
     height: 15em;
     width: 33.333%; }
 
-  /* line 2071, ../../../../Sass/style.scss */
+  /* line 2075, ../../../../Sass/style.scss */
   .explore-grid-hover-link div {
     height: 138px;
     overflow: hidden;
     position: relative;
     width: 86%; }
 
-  /* line 2078, ../../../../Sass/style.scss */
+  /* line 2082, ../../../../Sass/style.scss */
   .hover-color1 {
     background: #5f9bcd; }
 
-  /* line 2082, ../../../../Sass/style.scss */
+  /* line 2086, ../../../../Sass/style.scss */
   .hover-color2 {
     background: #949951; }
 
-  /* line 2086, ../../../../Sass/style.scss */
+  /* line 2090, ../../../../Sass/style.scss */
   .hover-color3 {
     background: #880888; }
 
-  /* line 2090, ../../../../Sass/style.scss */
+  /* line 2094, ../../../../Sass/style.scss */
   .hover-color4 {
     background: #ee7b02; }
 
-  /* line 2094, ../../../../Sass/style.scss */
+  /* line 2098, ../../../../Sass/style.scss */
   .hover-color5 {
     background: #c41282; }
 
-  /* line 2098, ../../../../Sass/style.scss */
+  /* line 2102, ../../../../Sass/style.scss */
   .hover-color6 {
     background: #8d9348; }
 
-  /* line 2102, ../../../../Sass/style.scss */
+  /* line 2106, ../../../../Sass/style.scss */
   .tribeta-grid-image {
     margin-top: -1em;
     margin-left: -25em; }
 
-  /* line 2107, ../../../../Sass/style.scss */
+  /* line 2111, ../../../../Sass/style.scss */
   .biology-club-grid-image {
     margin-top: -4.5em;
     margin-left: -11em; }
 
-  /* line 2112, ../../../../Sass/style.scss */
+  /* line 2116, ../../../../Sass/style.scss */
   .about-program-grid-image {
     margin-top: -1em;
     margin-left: -6em; }
 
-  /* line 2120, ../../../../Sass/style.scss */
+  /* line 2124, ../../../../Sass/style.scss */
   .biology-track-grid-image {
     margin-left: -10.8em;
     margin-top: -0.5em; }
 
-  /* line 2125, ../../../../Sass/style.scss */
+  /* line 2129, ../../../../Sass/style.scss */
   .clinical-track-grid-image {
     margin-top: -2.2em;
     margin-left: -29.35em; }
 
-  /* line 2130, ../../../../Sass/style.scss */
+  /* line 2134, ../../../../Sass/style.scss */
   .environmental-track-grid-image {
     margin-top: -1.2em;
     margin-left: -10.5em; }
 
-  /* line 2135, ../../../../Sass/style.scss */
+  /* line 2139, ../../../../Sass/style.scss */
   #callout_wrapper {
     background-color: #f4f4f4;
     height: 24.4em;
     margin-top: -21.4em; }
 
-  /* line 2143, ../../../../Sass/style.scss */
+  /* line 2147, ../../../../Sass/style.scss */
   .right-content-bottom {
     margin-bottom: 6em; }
 
-  /* line 2147, ../../../../Sass/style.scss */
+  /* line 2151, ../../../../Sass/style.scss */
   .explore-grid-hover-link h2 {
     font-size: 1.5em;
     letter-spacing: 0.015em;
@@ -1857,21 +1862,21 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     white-space: nowrap; }
 
-  /* line 2164, ../../../../Sass/style.scss */
+  /* line 2168, ../../../../Sass/style.scss */
   .explore-grid-hover-link a:hover h2,
   .explore-grid-hover-link a:focus h2 {
     text-shadow: none; }
 
-  /* line 2169, ../../../../Sass/style.scss */
+  /* line 2173, ../../../../Sass/style.scss */
   .explore-grid-hover-link a:hover img,
   .explore-grid-hover-link a:focus img {
     opacity: 0; }
 
-  /* line 2173, ../../../../Sass/style.scss */
+  /* line 2177, ../../../../Sass/style.scss */
   .explore-grid-hover-link div a:hover > div.hover-link-text a:hover {
     text-decoration: underline; }
 
-  /* line 2177, ../../../../Sass/style.scss */
+  /* line 2181, ../../../../Sass/style.scss */
   .explore-grid-hover-link img {
     position: absolute;
     opacity: 1;
@@ -1879,35 +1884,35 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     transition: opacity 0.3s ease-in-out 0s;
     max-width: none; }
 
-  /* line 2185, ../../../../Sass/style.scss */
+  /* line 2189, ../../../../Sass/style.scss */
   .hover-link-text {
     padding-top: 4%; }
 
-  /* line 2189, ../../../../Sass/style.scss */
+  /* line 2193, ../../../../Sass/style.scss */
   .hover-link-text a {
     font-size: 1em;
     color: #292929;
     line-height: 1.5;
     text-decoration: none; }
 
-  /* line 2196, ../../../../Sass/style.scss */
+  /* line 2200, ../../../../Sass/style.scss */
   .hover-link-text a:hover {
     text-decoration: underline; }
 
-  /* line 2200, ../../../../Sass/style.scss */
+  /* line 2204, ../../../../Sass/style.scss */
   .explore-grid-left {
     margin-left: 0; }
 
-  /* line 2204, ../../../../Sass/style.scss */
+  /* line 2208, ../../../../Sass/style.scss */
   .explore-grid-middle {
     margin-left: auto;
     margin-right: auto; }
 
-  /* line 2209, ../../../../Sass/style.scss */
+  /* line 2213, ../../../../Sass/style.scss */
   .explore-grid-right {
     margin-left: 2.93em; }
 
-  /* line 2213, ../../../../Sass/style.scss */
+  /* line 2217, ../../../../Sass/style.scss */
   .other-tracks {
     padding-top: 2.3em;
     font-size: 1.62em;
@@ -1916,7 +1921,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     color: #333; }
 
-  /* line 2222, ../../../../Sass/style.scss */
+  /* line 2226, ../../../../Sass/style.scss */
   #callout_wrapper {
     background-color: #f4f4f4;
     width: 100%;
@@ -1924,53 +1929,53 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-top: -21.6em;
     border-top: 0.025em solid #e3e3e3; }
 
-  /* line 2230, ../../../../Sass/style.scss */
+  /* line 2234, ../../../../Sass/style.scss */
   .right-content-bottom {
     margin-bottom: 6em; } }
 /* ////////////////////////// END min-width: 976px and max-width: 1034px /////////////////*/
 @media only screen and (max-width: 1023px) {
-  /* line 2241, ../../../../Sass/style.scss */
+  /* line 2245, ../../../../Sass/style.scss */
   .explore-grid-container,
   .other-tracks {
     display: none; } }
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 976px) and (max-width: 1034px) {
-  /* line 2252, ../../../../Sass/style.scss */
+  /* line 2256, ../../../../Sass/style.scss */
   #csm-menu {
     margin-top: -1.501em; } }
 /* ////////////////////////// END min-width: 976px and max-width: 1034px for IE 11 Menu Correction /////////////////*/
 /* side menu -> bottom */
 @media only screen and (max-width: 1034px) {
-  /* line 2268, ../../../../Sass/style.scss */
+  /* line 2272, ../../../../Sass/style.scss */
   .apply-button {
     display: none; } }
 @media only screen and (min-width: 1035px) {
   /* Page Heading Styles */
-  /* line 2278, ../../../../Sass/style.scss */
+  /* line 2282, ../../../../Sass/style.scss */
   #innerWrapper {
     width: 90%; }
 
-  /* line 2282, ../../../../Sass/style.scss */
+  /* line 2286, ../../../../Sass/style.scss */
   #contentWrapper {
     border-top: 0.025em solid #E3E3E3; }
 
   /* END Page Heading Styles */
   /* Department Menu Styles */
-  /* line 2290, ../../../../Sass/style.scss */
+  /* line 2294, ../../../../Sass/style.scss */
   #csm-menu {
     margin-top: 5.8em;
     margin-left: -3.18%; }
 
-  /* line 2295, ../../../../Sass/style.scss */
+  /* line 2299, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: transparent;
     width: 100%; }
 
-  /* line 2300, ../../../../Sass/style.scss */
+  /* line 2304, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     margin-left: -3.17em; }
 
-  /* line 2304, ../../../../Sass/style.scss */
+  /* line 2308, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     border-left: 7px solid #A40A00;
     font-weight: 700;
@@ -1978,46 +1983,46 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     color: #A40A00;
     max-width: 13.04em; }
 
-  /* line 2314, ../../../../Sass/style.scss */
+  /* line 2318, ../../../../Sass/style.scss */
   .department-menu-btn,
   .menu-title,
   .back-to-top {
     display: none; }
 
-  /* line 2318, ../../../../Sass/style.scss */
+  /* line 2322, ../../../../Sass/style.scss */
   .menu-contact-info {
     font-size: 1.15em; }
 
   /* END Department Menu Styles */
   /* Columns and Page Structure */
-  /* line 2326, ../../../../Sass/style.scss */
+  /* line 2330, ../../../../Sass/style.scss */
   #column-container {
     margin-top: -1.45%; }
 
   /* Begin Right Column */
-  /* line 2332, ../../../../Sass/style.scss */
+  /* line 2336, ../../../../Sass/style.scss */
   .right-column-related-content ul li {
     margin-top: -3.1em; }
 
-  /* line 2337, ../../../../Sass/style.scss */
+  /* line 2341, ../../../../Sass/style.scss */
   .why-boxes {
     width: 100%; }
 
-  /* line 2341, ../../../../Sass/style.scss */
+  /* line 2345, ../../../../Sass/style.scss */
   .side-why-desc {
     width: 93%; }
 
   /* END Right Column */
-  /* line 2348, ../../../../Sass/style.scss */
+  /* line 2352, ../../../../Sass/style.scss */
   #header_wrapper {
     border-bottom: 3em solid #FFF; }
 
-  /* line 2354, ../../../../Sass/style.scss */
+  /* line 2358, ../../../../Sass/style.scss */
   .main-column {
     width: 68%;
     padding-right: 3.7%; }
 
-  /* line 2359, ../../../../Sass/style.scss */
+  /* line 2363, ../../../../Sass/style.scss */
   .side-column {
     background-color: transparent;
     border-left: 1px solid #EAEAEA;
@@ -2026,77 +2031,77 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: 0;
     padding-left: 0.9%; }
 
-  /* line 2369, ../../../../Sass/style.scss */
+  /* line 2373, ../../../../Sass/style.scss */
   .main-wrapper {
     padding: 0;
     background-color: #FFF;
     box-shadow: none; }
 
-  /* line 2375, ../../../../Sass/style.scss */
+  /* line 2379, ../../../../Sass/style.scss */
   #hdrImg {
     width: auto; }
 
-  /* line 2379, ../../../../Sass/style.scss */
+  /* line 2383, ../../../../Sass/style.scss */
   .menu-title {
     display: none; }
 
-  /* line 2383, ../../../../Sass/style.scss */
+  /* line 2387, ../../../../Sass/style.scss */
   .back-to-top {
     display: none; }
 
-  /* line 2387, ../../../../Sass/style.scss */
+  /* line 2391, ../../../../Sass/style.scss */
   #csm-menu {
     margin-left: 1.499%;
     margin-top: -5.12em;
     margin-right: -1.2em;
     padding-left: 0.64em; }
 
-  /* line 2394, ../../../../Sass/style.scss */
+  /* line 2398, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     border-left: 7px solid #bd0b0b;
     font-weight: bold;
     background-color: transparent;
     color: #bd0b0b; }
 
-  /* line 2401, ../../../../Sass/style.scss */
+  /* line 2405, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: transparent;
     max-width: 100%;
     width: 90%;
     height: 1.22em; }
 
-  /* line 2409, ../../../../Sass/style.scss */
+  /* line 2413, ../../../../Sass/style.scss */
   .margincontent a.btn:hover,
   .margincontent a.btn:focus {
     color: #bd0b0b;
     background-color: transparent;
     border-left: 6px solid #bd0b0b; }
 
-  /* line 2415, ../../../../Sass/style.scss */
+  /* line 2419, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     margin-left: -3.17em; }
 
-  /* line 2419, ../../../../Sass/style.scss */
+  /* line 2423, ../../../../Sass/style.scss */
   #contentSlot {
     padding-top: 4.45em; }
 
-  /* line 2423, ../../../../Sass/style.scss */
+  /* line 2427, ../../../../Sass/style.scss */
   .main-wrapper {
     background-color: transparent; }
 
   /* these control realignments for column text */
-  /* line 2428, ../../../../Sass/style.scss */
+  /* line 2432, ../../../../Sass/style.scss */
   #breadcrumbs {
     margin-left: -15.15em;
     margin-bottom: 0.4em;
     margin-top: -9.6em; }
 
-  /* line 2434, ../../../../Sass/style.scss */
+  /* line 2438, ../../../../Sass/style.scss */
   .hero-img {
     width: 100%;
     margin-bottom: 3.5em; }
 
-  /* line 2441, ../../../../Sass/style.scss */
+  /* line 2445, ../../../../Sass/style.scss */
   h1.pg_title {
     font-size: 2.2em;
     padding-left: 2.9%;
@@ -2108,7 +2113,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     width: auto;
     letter-spacing: 0.007em; }
 
-  /* line 2457, ../../../../Sass/style.scss */
+  /* line 2461, ../../../../Sass/style.scss */
   .column-container {
     margin-right: 1.2em;
     padding: 0.5% 0 0;
@@ -2117,49 +2122,49 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border-left: 16.1em solid transparent;
     width: 95.8%; }
 
-  /* line 2468, ../../../../Sass/style.scss */
+  /* line 2472, ../../../../Sass/style.scss */
   h4.intro-tagline {
     text-transform: lowercase;
     font-size: 1.2em;
     margin-top: -2.1em;
     margin-bottom: .85em; }
 
-  /* line 2475, ../../../../Sass/style.scss */
+  /* line 2479, ../../../../Sass/style.scss */
   .center-column {
     padding: 0;
     margin: 0;
     margin-top: 0;
     max-width: none; }
 
-  /* line 2482, ../../../../Sass/style.scss */
+  /* line 2486, ../../../../Sass/style.scss */
   .center-column-full-width {
     padding: 0;
     margin: 0;
     margin-top: 1em; }
 
-  /* line 2488, ../../../../Sass/style.scss */
+  /* line 2492, ../../../../Sass/style.scss */
   p.program-desc {
     line-height: 1.55;
     font-size: 1.1em; }
 
-  /* line 2493, ../../../../Sass/style.scss */
+  /* line 2497, ../../../../Sass/style.scss */
   #right-side-column {
     margin: 0;
     float: right; }
 
-  /* line 2498, ../../../../Sass/style.scss */
+  /* line 2502, ../../../../Sass/style.scss */
   .related-content-container {
     padding: 0;
     background-color: transparent; }
 
-  /* line 2503, ../../../../Sass/style.scss */
+  /* line 2507, ../../../../Sass/style.scss */
   .right-column-sticky-content {
     margin: auto;
     height: 21em;
     border-bottom: 5em solid #FFF;
     display: none; }
 
-  /* line 2510, ../../../../Sass/style.scss */
+  /* line 2514, ../../../../Sass/style.scss */
   .right-column-content ul {
     margin-top: 2.4em;
     margin-left: auto;
@@ -2168,11 +2173,11 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-left: 1.8em;
     width: 90%; }
 
-  /* line 2519, ../../../../Sass/style.scss */
+  /* line 2523, ../../../../Sass/style.scss */
   .right-column-content ul li:first-child {
     margin-top: -13%; }
 
-  /* line 2523, ../../../../Sass/style.scss */
+  /* line 2527, ../../../../Sass/style.scss */
   .apply-button {
     background-color: #a40a00;
     float: right;
@@ -2180,77 +2185,77 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     width: 90%;
     margin-top: -6%; }
 
-  /* line 2531, ../../../../Sass/style.scss */
+  /* line 2535, ../../../../Sass/style.scss */
   .apply p {
     margin-top: 5.9%; }
 
-  /* line 2535, ../../../../Sass/style.scss */
+  /* line 2539, ../../../../Sass/style.scss */
   .apply span a {
     color: #FFF;
     margin-left: 1em;
     font-size: 1.28em;
     font-weight: 400; }
 
-  /* line 2542, ../../../../Sass/style.scss */
+  /* line 2546, ../../../../Sass/style.scss */
   .apply-button:hover {
     text-decoration: underline;
     background-color: #8a0001; }
 
-  /* line 2547, ../../../../Sass/style.scss */
+  /* line 2551, ../../../../Sass/style.scss */
   .explore-tracks:first-child {
     margin-top: 4%; }
 
-  /* line 2551, ../../../../Sass/style.scss */
+  /* line 2555, ../../../../Sass/style.scss */
   .explore-tracks {
     margin-bottom: 10%;
     max-width: 96%; }
 
-  /* line 2558, ../../../../Sass/style.scss */
+  /* line 2562, ../../../../Sass/style.scss */
   .explore-tracks a {
     font-size: 1.2em; }
 
   /* End Center Column */
   /* Begin Right Column */
-  /* line 2566, ../../../../Sass/style.scss */
+  /* line 2570, ../../../../Sass/style.scss */
   .right-column-content ul li {
     width: 100%; }
 
-  /* line 2570, ../../../../Sass/style.scss */
+  /* line 2574, ../../../../Sass/style.scss */
   .why-boxes {
     width: 100%; }
 
-  /* line 2574, ../../../../Sass/style.scss */
+  /* line 2578, ../../../../Sass/style.scss */
   .track-img {
     margin: 3px 20px 0 0;
     float: left;
     clear: left;
     padding-bottom: 1em; }
 
-  /* line 2581, ../../../../Sass/style.scss */
+  /* line 2585, ../../../../Sass/style.scss */
   .track-pad {
     padding-bottom: .2em; }
 
-  /* line 2585, ../../../../Sass/style.scss */
+  /* line 2589, ../../../../Sass/style.scss */
   .learn-more {
     text-decoration: none; }
 
-  /* line 2589, ../../../../Sass/style.scss */
+  /* line 2593, ../../../../Sass/style.scss */
   .learn-more span {
     font-size: .9em;
     font-weight: normal; }
 
-  /* line 2594, ../../../../Sass/style.scss */
+  /* line 2598, ../../../../Sass/style.scss */
   .explore-tracks a {
     color: #292929;
     text-decoration: none; }
 
-  /* line 2599, ../../../../Sass/style.scss */
+  /* line 2603, ../../../../Sass/style.scss */
   .explore-tracks a:hover {
     color: #a40a00;
     text-decoration: underline;
     border-bottom: none; }
 
-  /* line 2605, ../../../../Sass/style.scss */
+  /* line 2609, ../../../../Sass/style.scss */
   p.track-desc {
     padding-left: 130px;
     margin-top: -0.001em;
@@ -2258,64 +2263,64 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* End Center Column */
   /* Begin Right Column */
-  /* line 2615, ../../../../Sass/style.scss */
+  /* line 2619, ../../../../Sass/style.scss */
   .side-why-desc {
     width: 85%; }
 
-  /* line 2619, ../../../../Sass/style.scss */
+  /* line 2623, ../../../../Sass/style.scss */
   .right-column-related-contnet {
     margin-left: 4%; }
 
-  /* line 2623, ../../../../Sass/style.scss */
+  /* line 2627, ../../../../Sass/style.scss */
   .right-column-related-content ul li {
     width: 114%;
     margin-right: -1em; }
 
-  /* line 2629, ../../../../Sass/style.scss */
+  /* line 2633, ../../../../Sass/style.scss */
   .related-content-container {
     margin-top: 10%; }
 
-  /* line 2636, ../../../../Sass/style.scss */
+  /* line 2640, ../../../../Sass/style.scss */
   .explore-grid-container {
     margin-top: 0; }
 
-  /* line 2640, ../../../../Sass/style.scss */
+  /* line 2644, ../../../../Sass/style.scss */
   .explore-grid-properties {
     height: 15em;
     width: 33.333%; }
 
-  /* line 2645, ../../../../Sass/style.scss */
+  /* line 2649, ../../../../Sass/style.scss */
   .explore-grid-hover-link div {
     height: 138px;
     overflow: hidden;
     position: relative;
     width: 86%; }
 
-  /* line 2652, ../../../../Sass/style.scss */
+  /* line 2656, ../../../../Sass/style.scss */
   .hover-color1 {
     background: #5f9bcd; }
 
-  /* line 2656, ../../../../Sass/style.scss */
+  /* line 2660, ../../../../Sass/style.scss */
   .hover-color2 {
     background: #949951; }
 
-  /* line 2660, ../../../../Sass/style.scss */
+  /* line 2664, ../../../../Sass/style.scss */
   .hover-color3 {
     background: #880888; }
 
-  /* line 2664, ../../../../Sass/style.scss */
+  /* line 2668, ../../../../Sass/style.scss */
   .hover-color4 {
     background: #ee7b02; }
 
-  /* line 2668, ../../../../Sass/style.scss */
+  /* line 2672, ../../../../Sass/style.scss */
   .hover-color5 {
     background: #c41282; }
 
-  /* line 2672, ../../../../Sass/style.scss */
+  /* line 2676, ../../../../Sass/style.scss */
   .hover-color6 {
     background: #8d9348; }
 
-  /* line 2676, ../../../../Sass/style.scss */
+  /* line 2680, ../../../../Sass/style.scss */
   .explore-grid-hover-link h2 {
     font-size: 1.5em;
     letter-spacing: 0.015em;
@@ -2330,21 +2335,21 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     white-space: nowrap; }
 
-  /* line 2693, ../../../../Sass/style.scss */
+  /* line 2697, ../../../../Sass/style.scss */
   .explore-grid-hover-link a:hover h2,
   .explore-grid-hover-link a:focus h2 {
     text-shadow: none; }
 
-  /* line 2698, ../../../../Sass/style.scss */
+  /* line 2702, ../../../../Sass/style.scss */
   .explore-grid-hover-link a:hover img,
   .explore-grid-hover-link a:focus img {
     opacity: 0; }
 
-  /* line 2702, ../../../../Sass/style.scss */
+  /* line 2706, ../../../../Sass/style.scss */
   .explore-grid-hover-link div a:hover > div.hover-link-text a:hover {
     text-decoration: underline; }
 
-  /* line 2706, ../../../../Sass/style.scss */
+  /* line 2710, ../../../../Sass/style.scss */
   .explore-grid-hover-link img {
     position: absolute;
     opacity: 1;
@@ -2352,35 +2357,35 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     transition: opacity 0.3s ease-in-out 0s;
     max-width: none; }
 
-  /* line 2714, ../../../../Sass/style.scss */
+  /* line 2718, ../../../../Sass/style.scss */
   .hover-link-text {
     padding-top: 4%; }
 
-  /* line 2718, ../../../../Sass/style.scss */
+  /* line 2722, ../../../../Sass/style.scss */
   .hover-link-text a {
     font-size: 1em;
     color: #292929;
     line-height: 1.5;
     text-decoration: none; }
 
-  /* line 2725, ../../../../Sass/style.scss */
+  /* line 2729, ../../../../Sass/style.scss */
   .hover-link-text a:hover {
     text-decoration: underline; }
 
-  /* line 2729, ../../../../Sass/style.scss */
+  /* line 2733, ../../../../Sass/style.scss */
   .explore-grid-left {
     margin-left: 0; }
 
-  /* line 2733, ../../../../Sass/style.scss */
+  /* line 2737, ../../../../Sass/style.scss */
   .explore-grid-middle {
     margin-left: auto;
     margin-right: auto; }
 
-  /* line 2738, ../../../../Sass/style.scss */
+  /* line 2742, ../../../../Sass/style.scss */
   .explore-grid-right {
     margin-left: 2.93em; }
 
-  /* line 2742, ../../../../Sass/style.scss */
+  /* line 2746, ../../../../Sass/style.scss */
   .other-tracks {
     padding-top: 2.3em;
     font-size: 1.62em;
@@ -2389,7 +2394,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     color: #333; }
 
-  /* line 2752, ../../../../Sass/style.scss */
+  /* line 2756, ../../../../Sass/style.scss */
   #callout_wrapper {
     background-color: #f4f4f4;
     width: 100%;
@@ -2397,27 +2402,27 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-top: -21.6em;
     border-top: 0.025em solid #e3e3e3; }
 
-  /* line 2765, ../../../../Sass/style.scss */
+  /* line 2769, ../../../../Sass/style.scss */
   .right-content-bottom {
     margin-bottom: 6em; }
 
   /* END Columns and Page Structure */ }
 /* ////////////////////////// END min-width: 1035px /////////////////*/
 @media only screen and (min-width: 1044px) {
-  /* line 2776, ../../../../Sass/style.scss */
+  /* line 2780, ../../../../Sass/style.scss */
   #header_wrapper {
     border-bottom: 3em solid #FFF; }
 
-  /* line 2780, ../../../../Sass/style.scss */
+  /* line 2784, ../../../../Sass/style.scss */
   #contentWrapper {
     border-top: 0.025em solid #E3E3E3; }
 
-  /* line 2784, ../../../../Sass/style.scss */
+  /* line 2788, ../../../../Sass/style.scss */
   .main-column {
     width: 68%;
     padding-right: 3.7%; }
 
-  /* line 2791, ../../../../Sass/style.scss */
+  /* line 2795, ../../../../Sass/style.scss */
   .side-column {
     width: 32.84%;
     background-color: transparent;
@@ -2426,79 +2431,79 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-left: 0.9%;
     margin-top: 2.7em; }
 
-  /* line 2804, ../../../../Sass/style.scss */
+  /* line 2808, ../../../../Sass/style.scss */
   .main-wrapper {
     padding: 0;
     box-shadow: none; }
 
-  /* line 2809, ../../../../Sass/style.scss */
+  /* line 2813, ../../../../Sass/style.scss */
   #hdrImg {
     width: auto; }
 
-  /* line 2813, ../../../../Sass/style.scss */
+  /* line 2817, ../../../../Sass/style.scss */
   .menu-title {
     display: none; }
 
-  /* line 2817, ../../../../Sass/style.scss */
+  /* line 2821, ../../../../Sass/style.scss */
   .back-to-top {
     display: none; }
 
-  /* line 2821, ../../../../Sass/style.scss */
+  /* line 2825, ../../../../Sass/style.scss */
   #csm-menu {
     margin-left: 1.499%;
     margin-top: -5.12em;
     margin-right: -1.2em;
     padding-left: 0.64em; }
 
-  /* line 2828, ../../../../Sass/style.scss */
+  /* line 2832, ../../../../Sass/style.scss */
   li.csm-menu-lvl1-list.selected > a.csm-links.btn {
     border-left: 7px solid #bd0b0b;
     font-weight: bold;
     background-color: transparent;
     color: #bd0b0b; }
 
-  /* line 2835, ../../../../Sass/style.scss */
+  /* line 2839, ../../../../Sass/style.scss */
   .margincontent a.btn {
     background-color: transparent;
     max-width: 100%;
     width: 90%;
     height: 1.22em; }
 
-  /* line 2843, ../../../../Sass/style.scss */
+  /* line 2847, ../../../../Sass/style.scss */
   .margincontent a.btn:hover,
   .margincontent a.btn:focus {
     color: #bd0b0b;
     background-color: transparent;
     border-left: 6px solid #bd0b0b; }
 
-  /* line 2849, ../../../../Sass/style.scss */
+  /* line 2853, ../../../../Sass/style.scss */
   .csm-menu-lvl1-list {
     margin-left: -3.17em; }
 
-  /* line 2853, ../../../../Sass/style.scss */
+  /* line 2857, ../../../../Sass/style.scss */
   #contentSlot {
     padding-top: 4.45em; }
 
-  /* line 2857, ../../../../Sass/style.scss */
+  /* line 2861, ../../../../Sass/style.scss */
   h4.no-intro {
     margin-top: -2.4em; }
 
-  /* line 2861, ../../../../Sass/style.scss */
+  /* line 2865, ../../../../Sass/style.scss */
   .right-content {
     margin-top: -0.1em; }
 
   /* these control realignments for column text */
-  /* line 2866, ../../../../Sass/style.scss */
+  /* line 2870, ../../../../Sass/style.scss */
   #breadcrumbs {
     margin-left: -15.15em;
     margin-bottom: 0.4em;
     margin-top: -9.6em; }
 
-  /* line 2872, ../../../../Sass/style.scss */
+  /* line 2876, ../../../../Sass/style.scss */
   .hero-img {
     width: 100%; }
 
-  /* line 2878, ../../../../Sass/style.scss */
+  /* line 2882, ../../../../Sass/style.scss */
   h1.pg_title {
     font-size: 2.2em;
     padding-left: 2.9%;
@@ -2508,7 +2513,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: -0.81em;
     width: auto; }
 
-  /* line 2892, ../../../../Sass/style.scss */
+  /* line 2896, ../../../../Sass/style.scss */
   .column-container {
     margin-right: 1.2em;
     padding: 0.5% 0 0;
@@ -2516,43 +2521,43 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border-left: 16.1em solid transparent;
     width: 95.8%; }
 
-  /* line 2902, ../../../../Sass/style.scss */
+  /* line 2906, ../../../../Sass/style.scss */
   h4.intro-tagline {
     text-transform: lowercase;
     font-size: 1.2em;
     margin-top: -2.5em;
     margin-bottom: .85em; }
 
-  /* line 2910, ../../../../Sass/style.scss */
+  /* line 2914, ../../../../Sass/style.scss */
   .center-column {
     padding: 0;
     margin: 0;
     margin-top: 0; }
 
-  /* line 2916, ../../../../Sass/style.scss */
+  /* line 2920, ../../../../Sass/style.scss */
   .center-column-full-width {
     padding: 0;
     margin: 0;
     margin-top: 1em; }
 
-  /* line 2926, ../../../../Sass/style.scss */
+  /* line 2930, ../../../../Sass/style.scss */
   #right-side-column {
     margin: 0;
     float: right; }
 
-  /* line 2931, ../../../../Sass/style.scss */
+  /* line 2935, ../../../../Sass/style.scss */
   .related-content-container {
     padding: 0;
     background-color: transparent; }
 
-  /* line 2936, ../../../../Sass/style.scss */
+  /* line 2940, ../../../../Sass/style.scss */
   .right-column-sticky-content {
     margin: auto;
     height: 21em;
     border-bottom: 5em solid #FFF;
     display: none; }
 
-  /* line 2943, ../../../../Sass/style.scss */
+  /* line 2947, ../../../../Sass/style.scss */
   .right-column-content ul {
     margin-top: 2.4em;
     margin-left: auto;
@@ -2561,11 +2566,11 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-left: 1.8em;
     width: 90%; }
 
-  /* line 2955, ../../../../Sass/style.scss */
+  /* line 2959, ../../../../Sass/style.scss */
   .right-column-content ul li:first-child {
     margin-top: -13%; }
 
-  /* line 2959, ../../../../Sass/style.scss */
+  /* line 2963, ../../../../Sass/style.scss */
   .apply-button {
     background-color: #a40a00;
     float: right;
@@ -2573,79 +2578,79 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     width: 90%;
     margin-top: -6%; }
 
-  /* line 2967, ../../../../Sass/style.scss */
+  /* line 2971, ../../../../Sass/style.scss */
   .apply p {
     margin-top: 5.9%; }
 
-  /* line 2971, ../../../../Sass/style.scss */
+  /* line 2975, ../../../../Sass/style.scss */
   .apply span a {
     color: #FFF;
     margin-left: 1em;
     font-size: 1.28em;
     font-weight: 400; }
 
-  /* line 2978, ../../../../Sass/style.scss */
+  /* line 2982, ../../../../Sass/style.scss */
   .apply-button:hover {
     text-decoration: underline;
     background-color: #8a0001; }
 
-  /* line 2983, ../../../../Sass/style.scss */
+  /* line 2987, ../../../../Sass/style.scss */
   .explore-tracks:first-child {
     margin-top: 4%; }
 
-  /* line 2987, ../../../../Sass/style.scss */
+  /* line 2991, ../../../../Sass/style.scss */
   .explore-tracks {
     margin-bottom: 4.3%;
     padding-bottom: 0.8em;
     border-bottom: 0.025em solid #E3E3E3;
     max-width: 88%; }
 
-  /* line 2999, ../../../../Sass/style.scss */
+  /* line 3003, ../../../../Sass/style.scss */
   .explore-tracks a {
     font-size: 1.2em; }
 
   /* End Center Column */
   /* Begin Right Column */
-  /* line 3007, ../../../../Sass/style.scss */
+  /* line 3011, ../../../../Sass/style.scss */
   .right-column-content ul li {
     width: 100%; }
 
-  /* line 3011, ../../../../Sass/style.scss */
+  /* line 3015, ../../../../Sass/style.scss */
   .why-boxes {
     width: 100%; }
 
-  /* line 3015, ../../../../Sass/style.scss */
+  /* line 3019, ../../../../Sass/style.scss */
   .track-img {
     margin: 3px 20px 0 0;
     float: left;
     clear: left;
     padding-bottom: 1em; }
 
-  /* line 3022, ../../../../Sass/style.scss */
+  /* line 3026, ../../../../Sass/style.scss */
   .track-pad {
     padding-bottom: .2em; }
 
-  /* line 3026, ../../../../Sass/style.scss */
+  /* line 3030, ../../../../Sass/style.scss */
   .learn-more {
     text-decoration: none; }
 
-  /* line 3030, ../../../../Sass/style.scss */
+  /* line 3034, ../../../../Sass/style.scss */
   .learn-more span {
     font-size: .9em;
     font-weight: normal; }
 
-  /* line 3035, ../../../../Sass/style.scss */
+  /* line 3039, ../../../../Sass/style.scss */
   .explore-tracks a {
     color: #292929;
     text-decoration: none; }
 
-  /* line 3040, ../../../../Sass/style.scss */
+  /* line 3044, ../../../../Sass/style.scss */
   .explore-tracks a:hover {
     color: #a40a00;
     text-decoration: underline;
     border-bottom: none; }
 
-  /* line 3046, ../../../../Sass/style.scss */
+  /* line 3050, ../../../../Sass/style.scss */
   p.track-desc {
     padding-left: 130px;
     margin-top: -0.001em;
@@ -2653,66 +2658,66 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* End Center Column */
   /* Begin Right Column */
-  /* line 3056, ../../../../Sass/style.scss */
+  /* line 3060, ../../../../Sass/style.scss */
   .side-why-desc {
     width: 85%; }
 
-  /* line 3060, ../../../../Sass/style.scss */
+  /* line 3064, ../../../../Sass/style.scss */
   .right-column-related-content {
     margin-left: 4%; }
-    /* line 3063, ../../../../Sass/style.scss */
+    /* line 3067, ../../../../Sass/style.scss */
     .right-column-related-content ul {
       margin-bottom: 26%; }
-      /* line 3066, ../../../../Sass/style.scss */
+      /* line 3070, ../../../../Sass/style.scss */
       .right-column-related-content ul li {
         width: 114%;
         margin-right: -1em; }
 
-  /* line 3074, ../../../../Sass/style.scss */
+  /* line 3078, ../../../../Sass/style.scss */
   .related-content-container {
     margin-top: 10%; }
 
-  /* line 3078, ../../../../Sass/style.scss */
+  /* line 3082, ../../../../Sass/style.scss */
   .tribeta-grid-image {
     margin-top: -1.1em;
     margin-left: -24.5em; }
 
-  /* line 3083, ../../../../Sass/style.scss */
+  /* line 3087, ../../../../Sass/style.scss */
   .biology-club-grid-image {
     margin-left: -9.85em;
     margin-top: -4.7em; }
 
-  /* line 3088, ../../../../Sass/style.scss */
+  /* line 3092, ../../../../Sass/style.scss */
   .about-program-grid-image {
     margin-left: -5em;
     margin-top: -1.1em; }
 
-  /* line 3096, ../../../../Sass/style.scss */
+  /* line 3100, ../../../../Sass/style.scss */
   .biology-track-grid-image {
     margin-left: -10.8em;
     margin-top: -0.5em; }
 
-  /* line 3101, ../../../../Sass/style.scss */
+  /* line 3105, ../../../../Sass/style.scss */
   .clinical-track-grid-image {
     margin-left: -29em;
     margin-top: -1em; }
 
-  /* line 3106, ../../../../Sass/style.scss */
+  /* line 3110, ../../../../Sass/style.scss */
   .environmental-track-grid-image {
     margin-left: -11.25em;
     margin-top: -1.1em; }
 
-  /* line 3111, ../../../../Sass/style.scss */
+  /* line 3115, ../../../../Sass/style.scss */
   #callout_wrapper {
     background-color: #f4f4f4;
     height: 24.4em;
     margin-top: -21.4em; }
 
-  /* line 3119, ../../../../Sass/style.scss */
+  /* line 3123, ../../../../Sass/style.scss */
   .right-content-bottom {
     margin-bottom: 6em; }
 
-  /* line 3124, ../../../../Sass/style.scss */
+  /* line 3128, ../../../../Sass/style.scss */
   .learn-more span a:after {
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
@@ -2721,7 +2726,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     -webkit-transform: translateY(0);
     transform: translateY(0); }
 
-  /* line 3134, ../../../../Sass/style.scss */
+  /* line 3138, ../../../../Sass/style.scss */
   .explore-track a:hover > .learn-more span a:after {
     -webkit-transform: translateX(3px);
     transform: translateX(3px);
@@ -2730,12 +2735,12 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     -webkit-animation-timing-function: ease;
     animation-timing-function: ease; }
 
-  /* line 3148, ../../../../Sass/style.scss */
+  /* line 3152, ../../../../Sass/style.scss */
   .main-column {
     width: 68%;
     padding-right: 2%; }
 
-  /* line 3154, ../../../../Sass/style.scss */
+  /* line 3158, ../../../../Sass/style.scss */
   .right-column-content ul {
     margin-top: 2.4em;
     margin-left: auto;
@@ -2744,7 +2749,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     padding-left: 10.5%;
     width: 90%; }
 
-  /* line 3164, ../../../../Sass/style.scss */
+  /* line 3168, ../../../../Sass/style.scss */
   .right-column-content ul li {
     list-style: outside none none;
     margin-bottom: 7.8em;
@@ -2757,7 +2762,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     -o-transition: box-shadow .7s ease-out;
     transition: box-shadow .7s ease-out; }
 
-  /* line 3178, ../../../../Sass/style.scss */
+  /* line 3182, ../../../../Sass/style.scss */
   .right-column-content ul li:hover {
     border: 1px solid #E3E3E3;
     -webkit-box-shadow: 0px 0px 21px 0px #ebebeb;
@@ -2766,7 +2771,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     color: #292929;
     cursor: pointer; }
 
-  /* line 3187, ../../../../Sass/style.scss */
+  /* line 3191, ../../../../Sass/style.scss */
   a.side-why-desc {
     margin-left: 0;
     padding: .1em 0 .3em .1em;
@@ -2777,7 +2782,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 400;
     font-size: 1em; }
 
-  /* line 3199, ../../../../Sass/style.scss */
+  /* line 3203, ../../../../Sass/style.scss */
   .side-why-desc:after {
     content: "";
     background: url("http://ngucsm.github.io/biology/assets/right-double-bracket-arrow.svg") no-repeat scroll 0px 0px transparent;
@@ -2792,12 +2797,12 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     -webkit-transform: translateY(0);
     transform: translateY(0); }
 
-  /* line 3217, ../../../../Sass/style.scss */
+  /* line 3221, ../../../../Sass/style.scss */
   .right-column-content ul li:hover .side-why-desc {
     text-decoration: none;
     color: #bd0b0b; }
 
-  /* line 3222, ../../../../Sass/style.scss */
+  /* line 3226, ../../../../Sass/style.scss */
   .right-column-content ul li:hover .side-why-desc:after {
     -webkit-transform: translateX(3px);
     transform: translateX(3px);
@@ -2806,35 +2811,35 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     -webkit-animation-timing-function: ease;
     animation-timing-function: ease; }
 
-  /* line 3234, ../../../../Sass/style.scss */
+  /* line 3238, ../../../../Sass/style.scss */
   .menu-contact-box {
     border: 1px solid #E3E3E3; }
 
-  /* line 3245, ../../../../Sass/style.scss */
+  /* line 3249, ../../../../Sass/style.scss */
   #header_wrapper {
     border-top: 2.1em solid #222;
     height: 12em;
     background: url("http://ngucsm.github.io/biology/assets/desktop-header-background-gradient.png") repeat-x scroll 0% 0% transparent; }
 
-  /* line 3252, ../../../../Sass/style.scss */
+  /* line 3256, ../../../../Sass/style.scss */
   #search .toggle-search {
     padding: 19.28% 19px; }
 
-  /* line 3257, ../../../../Sass/style.scss */
+  /* line 3261, ../../../../Sass/style.scss */
   #megaMenu {
     height: 0;
     margin-top: 5.2%; }
 
-  /* line 3263, ../../../../Sass/style.scss */
+  /* line 3267, ../../../../Sass/style.scss */
   #megaMenu .menu {
     margin-top: 14.2%;
     margin-left: -1.5%; }
 
-  /* line 3269, ../../../../Sass/style.scss */
+  /* line 3273, ../../../../Sass/style.scss */
   #masthead {
     margin-top: -5.5em; }
 
-  /* line 3274, ../../../../Sass/style.scss */
+  /* line 3278, ../../../../Sass/style.scss */
   #header #masthead a, #header #masthead a:visited {
     width: 46.8%;
     margin-left: -0.6%;
@@ -2847,7 +2852,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     float: left;
     padding-right: 2%; }
 
-  /* line 3288, ../../../../Sass/style.scss */
+  /* line 3292, ../../../../Sass/style.scss */
   #megaMenu li > ul {
     top: 100%;
     width: 96.4%;
@@ -2856,103 +2861,103 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border: 4px solid #f5f5f5;
     border-top: none; }
 
-  /* line 3298, ../../../../Sass/style.scss */
+  /* line 3302, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul {
     width: 98%;
     background: #F5F5F5; }
 
-  /* line 3304, ../../../../Sass/style.scss */
+  /* line 3308, ../../../../Sass/style.scss */
   #megaMenu li ul li ul li a:hover {
     text-decoration: none; }
 
-  /* line 3309, ../../../../Sass/style.scss */
+  /* line 3313, ../../../../Sass/style.scss */
   #megaMenu li ul li a:hover {
     text-decoration: underline; }
 
-  /* line 3314, ../../../../Sass/style.scss */
+  /* line 3318, ../../../../Sass/style.scss */
   #megaMenu .menu li ul li a {
     color: #BD0B0B;
     padding-top: 7.1%;
     font-weight: 700; }
 
-  /* line 3320, ../../../../Sass/style.scss */
+  /* line 3324, ../../../../Sass/style.scss */
   #megaMenu .menu li ul li ul li a {
     padding-top: 4.8%;
     font-weight: 400; }
 
-  /* line 3326, ../../../../Sass/style.scss */
+  /* line 3330, ../../../../Sass/style.scss */
   .menu li ul.lvl25 .menu-column li.undergraduate {
     min-height: 42px;
     max-height: 42px;
     background-color: transparent; }
 
-  /* line 3333, ../../../../Sass/style.scss */
+  /* line 3337, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.grad-school-resources {
     margin-top: 8em; }
 
-  /* line 3338, ../../../../Sass/style.scss */
+  /* line 3342, ../../../../Sass/style.scss */
   .menu li.admissions ul .menu-column li, .menu li.academics ul .menu-column li {
     min-height: 34px;
     background: transparent;
     height: 2.39em; }
 
-  /* line 3346, ../../../../Sass/style.scss */
+  /* line 3350, ../../../../Sass/style.scss */
   li.admissions .menu-colum,
   li.academics .menu-colum {
     width: 33.3%; }
 
-  /* line 3352, ../../../../Sass/style.scss */
+  /* line 3356, ../../../../Sass/style.scss */
   li.admissions .menu-colum a,
   li.academics .menu-colum a {
     text-align: center; }
 
-  /* line 3357, ../../../../Sass/style.scss */
+  /* line 3361, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul.lvl10 .menu-column-wrap .menu-column {
     width: 33.3%; }
 
-  /* line 3362, ../../../../Sass/style.scss */
+  /* line 3366, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul.lvl25 .menu-column-wrap .menu-column {
     width: 33.3%; }
 
-  /* line 3369, ../../../../Sass/style.scss */
+  /* line 3373, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl11 {
     width: 98.4%;
     height: 39em; }
 
-  /* line 3375, ../../../../Sass/style.scss */
+  /* line 3379, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl20 {
     width: 98.4%;
     height: 16em; }
 
-  /* line 3381, ../../../../Sass/style.scss */
+  /* line 3385, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl26 {
     width: 98.4%;
     height: 39em; }
 
-  /* line 3387, ../../../../Sass/style.scss */
+  /* line 3391, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl35 {
     width: 98.4%;
     height: 41.5em; }
 
-  /* line 3393, ../../../../Sass/style.scss */
+  /* line 3397, ../../../../Sass/style.scss */
   .menu li ul .menu-column li {
     min-height: 300px; }
 
-  /* line 3400, ../../../../Sass/style.scss */
+  /* line 3404, ../../../../Sass/style.scss */
   .menu li.admissions ul .menu-column li,
   .menu li.academics ul .menu-column li {
     min-height: 42px;
     background: transparent; }
 
-  /* line 3406, ../../../../Sass/style.scss */
+  /* line 3410, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li {
     min-height: 240px; }
 
-  /* line 3410, ../../../../Sass/style.scss */
+  /* line 3414, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li.academics-undergraduate ul li {
     min-height: 300px; }
 
-  /* line 3455, ../../../../Sass/style.scss */
+  /* line 3459, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.apply-to-ngu a,
   #megaMenu .menu li.customDrop ul li ul li.plan-your-visit a,
   #megaMenu .menu li.customDrop ul li ul li.contact-admissions a,
@@ -2981,7 +2986,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     font-size: 14px; }
 
-  /* line 3496, ../../../../Sass/style.scss */
+  /* line 3500, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li ul.lvl12 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl13 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl14 li a,
@@ -3012,47 +3017,47 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border: none;
     margin-top: -0.7em; }
 
-  /* line 3504, ../../../../Sass/style.scss */
+  /* line 3508, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul {
     height: 0;
     width: 103%; }
 
-  /* line 3509, ../../../../Sass/style.scss */
+  /* line 3513, ../../../../Sass/style.scss */
   .menu li.customDrop ul {
     background-color: #F5F5F5; }
 
-  /* line 3514, ../../../../Sass/style.scss */
+  /* line 3518, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     color: #BD0B0B; }
 
-  /* line 3519, ../../../../Sass/style.scss */
+  /* line 3523, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li a {
     color: #BD0B0B;
     padding-top: 8.1%;
     font-weight: 400; }
 
-  /* line 3526, ../../../../Sass/style.scss */
+  /* line 3530, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.adm-get-connected {
     margin-bottom: 6em; }
 
-  /* line 3530, ../../../../Sass/style.scss */
+  /* line 3534, ../../../../Sass/style.scss */
   .menu > li.customDrop ul .menu-column > li:hover > a {
     text-decoration: underline;
     background: #E6E6E6; }
 
-  /* line 3535, ../../../../Sass/style.scss */
+  /* line 3539, ../../../../Sass/style.scss */
   .customDrop .menu-column > li:hover > ul {
     background: none repeat scroll 0% 0% #F5F5F5 !important; }
 
-  /* line 3540, ../../../../Sass/style.scss */
+  /* line 3544, ../../../../Sass/style.scss */
   .menu-column-wrap {
     background-color: #F5F5F5; }
 
-  /* line 3545, ../../../../Sass/style.scss */
+  /* line 3549, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     text-align: center; }
 
-  /* line 3551, ../../../../Sass/style.scss */
+  /* line 3555, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -3061,19 +3066,19 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: auto;
     width: 85%; }
 
-  /* line 3560, ../../../../Sass/style.scss */
+  /* line 3564, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */ }
 
-  /* line 3564, ../../../../Sass/style.scss */
+  /* line 3568, ../../../../Sass/style.scss */
   #hdrImg .item img {
     width: 62%;
     float: left;
     margin-left: 36.8%;
     padding-top: 1.9%; }
 
-  /* line 3571, ../../../../Sass/style.scss */
+  /* line 3575, ../../../../Sass/style.scss */
   #hdrImg .img {
     overflow: hidden;
     margin-left: 41%;
@@ -3082,6 +3087,6 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 3590, ../../../../Sass/style.scss */
+  /* line 3594, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0; } }
