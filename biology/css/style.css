@@ -1191,7 +1191,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 
   /* line 1174, ../../../../Sass/style.scss */
   #header #masthead a, #header #masthead a:visited, .home #header #masthead a, .home #header #masthead a:visited {
-    background: url(../images/mobile-logo.png) no-repeat;
+    background: url(http://www.ngu.edu/images/mobile-logo.png) no-repeat;
     width: 135px;
     height: 160px;
     padding: 0;
