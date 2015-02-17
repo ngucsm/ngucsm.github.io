@@ -2678,7 +2678,11 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   .menu-column-wrap {
     background-color: #F5F5F5; }
 
-  /* line 3069, ../../../../Sass/style.scss */
+  /* line 3071, ../../../../Sass/style.scss */
+  #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
+    text-align: center; }
+
+  /* line 3075, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -2687,19 +2691,19 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: auto;
     width: 85%; }
 
-  /* line 3078, ../../../../Sass/style.scss */
+  /* line 3084, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */ }
 
-  /* line 3082, ../../../../Sass/style.scss */
+  /* line 3088, ../../../../Sass/style.scss */
   #hdrImg .item img {
     width: 62%;
     float: left;
     margin-left: 36.8%;
     padding-top: 1.9%; }
 
-  /* line 3089, ../../../../Sass/style.scss */
+  /* line 3095, ../../../../Sass/style.scss */
   #hdrImg .img {
     overflow: hidden;
     margin-left: 41%;
@@ -2708,6 +2712,6 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 3108, ../../../../Sass/style.scss */
+  /* line 3114, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0; } }
