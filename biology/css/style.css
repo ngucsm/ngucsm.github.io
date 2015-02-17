@@ -2543,50 +2543,54 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   li.academics .menu-colum a {
     text-align: center; }
 
-  /* line 2885, ../../../../Sass/style.scss */
+  /* line 2887, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul.lvl10 .menu-column-wrap .menu-column {
     width: 33.3%; }
 
-  /* line 2890, ../../../../Sass/style.scss */
+  /* line 2891, ../../../../Sass/style.scss */
+  #megaMenu .menu li.customDrop ul.lvl25 .menu-column-wrap .menu-column {
+    width: 33.3%; }
+
+  /* line 2896, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl11 {
     width: 98.4%;
     height: 39em; }
 
-  /* line 2896, ../../../../Sass/style.scss */
+  /* line 2902, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl20 {
     width: 98.4%;
     height: 16em; }
 
-  /* line 2902, ../../../../Sass/style.scss */
+  /* line 2908, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl26 {
     width: 98.4%;
     height: 39em; }
 
-  /* line 2908, ../../../../Sass/style.scss */
+  /* line 2914, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul.lvl35 {
     width: 98.4%;
     height: 41.5em; }
 
-  /* line 2914, ../../../../Sass/style.scss */
+  /* line 2920, ../../../../Sass/style.scss */
   .menu li ul .menu-column li {
     min-height: 300px; }
 
-  /* line 2921, ../../../../Sass/style.scss */
+  /* line 2927, ../../../../Sass/style.scss */
   .menu li.admissions ul .menu-column li,
   .menu li.academics ul .menu-column li {
     min-height: 42px;
     background: transparent; }
 
-  /* line 2927, ../../../../Sass/style.scss */
+  /* line 2933, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li {
     min-height: 225px;
     min-height: 240px; }
 
-  /* line 2937, ../../../../Sass/style.scss */
+  /* line 2943, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li.academics-undergraduate ul li {
     min-height: 300px; }
 
-  /* line 2977, ../../../../Sass/style.scss */
+  /* line 2983, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.apply-to-ngu a,
   #megaMenu .menu li.customDrop ul li ul li.plan-your-visit a,
   #megaMenu .menu li.customDrop ul li ul li.contact-admissions a,
@@ -2615,7 +2619,7 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     font-weight: 700;
     font-size: 14px; }
 
-  /* line 3017, ../../../../Sass/style.scss */
+  /* line 3023, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li ul.lvl12 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl13 li a,
   #megaMenu .menu li.customDrop ul li ul li ul.lvl14 li a,
@@ -2646,47 +2650,47 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     border: none;
     margin-top: -0.7em; }
 
-  /* line 3031, ../../../../Sass/style.scss */
+  /* line 3037, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul {
     height: 0;
     width: 103%; }
 
-  /* line 3041, ../../../../Sass/style.scss */
+  /* line 3047, ../../../../Sass/style.scss */
   .menu li.customDrop ul {
     background-color: #F5F5F5; }
 
-  /* line 3046, ../../../../Sass/style.scss */
+  /* line 3052, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     color: #BD0B0B; }
 
-  /* line 3053, ../../../../Sass/style.scss */
+  /* line 3059, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li a {
     color: #BD0B0B;
     padding-top: 8.1%;
     font-weight: 400; }
 
-  /* line 3061, ../../../../Sass/style.scss */
+  /* line 3067, ../../../../Sass/style.scss */
   #megaMenu .menu li.customDrop ul li ul li.adm-get-connected {
     margin-bottom: 6em; }
 
-  /* line 3065, ../../../../Sass/style.scss */
+  /* line 3071, ../../../../Sass/style.scss */
   .menu > li.customDrop ul .menu-column > li:hover > a {
     text-decoration: underline;
     background: #E6E6E6; }
 
-  /* line 3070, ../../../../Sass/style.scss */
+  /* line 3076, ../../../../Sass/style.scss */
   .customDrop .menu-column > li:hover > ul {
     background: none repeat scroll 0% 0% #F5F5F5 !important; }
 
-  /* line 3074, ../../../../Sass/style.scss */
+  /* line 3080, ../../../../Sass/style.scss */
   .menu-column-wrap {
     background-color: #F5F5F5; }
 
-  /* line 3080, ../../../../Sass/style.scss */
+  /* line 3086, ../../../../Sass/style.scss */
   #megaMenu .menu > li.customDrop > ul .menu-column > li > a {
     text-align: center; }
 
-  /* line 3084, ../../../../Sass/style.scss */
+  /* line 3090, ../../../../Sass/style.scss */
   #hdrImg {
     display: block;
     margin-top: -11em;
@@ -2695,19 +2699,19 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
     margin-left: auto;
     width: 85%; }
 
-  /* line 3093, ../../../../Sass/style.scss */
+  /* line 3099, ../../../../Sass/style.scss */
   #hdrImg .items {
     height: 0;
     /* IMPORTANT TO KEEP MENU WORKING */ }
 
-  /* line 3097, ../../../../Sass/style.scss */
+  /* line 3103, ../../../../Sass/style.scss */
   #hdrImg .item img {
     width: 62%;
     float: left;
     margin-left: 36.8%;
     padding-top: 1.9%; }
 
-  /* line 3104, ../../../../Sass/style.scss */
+  /* line 3110, ../../../../Sass/style.scss */
   #hdrImg .img {
     overflow: hidden;
     margin-left: 41%;
@@ -2716,6 +2720,6 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
 /* ////////////////////////// END min-width: 1044px /////////////////*/
 /* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
-  /* line 3123, ../../../../Sass/style.scss */
+  /* line 3129, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0; } }
