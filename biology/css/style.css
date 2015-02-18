@@ -387,13 +387,12 @@ a.side-why-desc {
 
 /* line 444, ../../../../Sass/style.scss */
 .download-track-button a {
-  color: #FFF;
-  transition: all 0.2s linear; }
-
-/* line 449, ../../../../Sass/style.scss */
-.download-track-button a:hover {
-  background-color: #A40A00;
   color: #FFF; }
+
+/* line 448, ../../../../Sass/style.scss */
+.download-track-button:hover {
+  background-color: #A40A00;
+  transition: all 0.2s linear; }
 
 /* END Right Column */
 /* line 465, ../../../../Sass/style.scss */
@@ -3119,3 +3118,33 @@ Media Queries were developed in conjunction with existing page breakpoints. Seve
   /* line 3631, ../../../../Sass/style.scss */
   #csm-menu-padding {
     margin-top: 0; } }
+tyle.scss */
+  #hdrImg .items {
+    height: 0;
+    /* IMPORTANT TO KEEP MENU WORKING */
+  }
+
+  /* line 3605, ../../../../Sass/style.scss */
+  #hdrImg .item img {
+    width: 62%;
+    float: left;
+    margin-left: 36.8%;
+    padding-top: 1.9%;
+  }
+
+  /* line 3612, ../../../../Sass/style.scss */
+  #hdrImg .img {
+    overflow: hidden;
+    margin-left: 41%;
+    width: 59.5%;
+  }
+}
+/* END 1044 media query */
+/* ////////////////////////// END min-width: 1044px /////////////////*/
+/* //////////// For IE 11 only, prevents jumping menu - CSS query must go here: regular loads first, then applied to menu ///////////////// */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1044px) {
+  /* line 3631, ../../../../Sass/style.scss */
+  #csm-menu-padding {
+    margin-top: 0;
+  }
+}
